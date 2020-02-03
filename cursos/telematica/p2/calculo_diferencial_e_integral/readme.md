@@ -1,1 +1,0 @@
-#calculo_diferencial_e_integral

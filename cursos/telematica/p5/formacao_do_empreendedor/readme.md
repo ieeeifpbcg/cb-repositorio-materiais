@@ -1,1 +1,0 @@
-#formacao_do_empreendedor

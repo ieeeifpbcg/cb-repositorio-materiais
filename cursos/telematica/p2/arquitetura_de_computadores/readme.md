@@ -1,1 +1,0 @@
-#arquitetura_de_computadores

@@ -1,1 +1,0 @@
-#cabeamento_estruturado

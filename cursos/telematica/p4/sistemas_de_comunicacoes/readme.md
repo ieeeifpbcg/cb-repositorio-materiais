@@ -1,1 +1,0 @@
-#sistemas_de_comunicacoes

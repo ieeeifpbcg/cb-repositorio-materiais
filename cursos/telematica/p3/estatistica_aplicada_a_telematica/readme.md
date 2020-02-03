@@ -1,1 +1,0 @@
-#estatistica_aplicada_a_telematica

@@ -1,1 +1,0 @@
-#optativa_i
