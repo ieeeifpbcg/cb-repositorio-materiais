@@ -1,31 +1,31 @@
 [
     {
         "id": "11",
-        "nome": "introdução_a_telemática",
+        "nome": "introdução-a-telemática",
         "ch": "33",
         "pr": "0"
     },
     {
         "id": "12",
-        "nome": "fundamentos_de_eletricidade",
+        "nome": "fundamentos-de-eletricidade",
         "ch": "67",
         "pr": "0"
     },
     {
         "id": "13",
-        "nome": "programação_i",
+        "nome": "programação-i",
         "ch": "100",
         "pr": "0"
     },
     {
         "id": "14",
-        "nome": "laboratório_de_sistemas_abertos",
+        "nome": "laboratório-de-sistemas-abertos",
         "ch": "067",
         "pr": "0"
     },
     {
         "id": "15",
-        "nome": "inglês_instrumental",
+        "nome": "inglês-instrumental",
         "ch": "33",
         "pr": "0"
     },
@@ -37,199 +37,199 @@
     },
     {
         "id": "17",
-        "nome": "língua_portuguesa",
+        "nome": "língua-portuguesa",
         "ch": "33",
         "pr": "0"
     },
     {
         "id": "21",
-        "nome": "redes_de_computadores",
+        "nome": "redes-de-computadores",
         "ch": "67",
         "pr": "11"
     },
     {
         "id": "22",
-        "nome": "eletrônica_para_telecomunicações",
+        "nome": "eletrônica-para-telecomunicações",
         "ch": "67",
         "pr": "12"
     },
     {
         "id": "23",
-        "nome": "medição_eletroeletrônica",
+        "nome": "medição-eletroeletrônica",
         "ch": "33",
         "pr": "12"
     },
     {
         "id": "24",
-        "nome": "programação_ii",
+        "nome": "programação-ii",
         "ch": "67",
         "pr": "13"
     },
     {
         "id": "25",
-        "nome": "arquitetura_de_computadores",
+        "nome": "arquitetura-de-computadores",
         "ch": "67",
         "pr": "0"
     },
     {
         "id": "26",
-        "nome": "cálculo_diferencial_e_integral",
+        "nome": "cálculo-diferencial-e-integral",
         "ch": "67",
         "pr": "16"
     },
     {
         "id": "27",
-        "nome": "educação_em_diversidade",
+        "nome": "educação-em-diversidade",
         "ch": "33",
         "pr": "0"
     },
     {
         "id": "31",
-        "nome": "tecnologias_de_redes_locais",
+        "nome": "tecnologias-de-redes-locais",
         "ch": "67",
         "pr": "21"
     },
     {
         "id": "32",
-        "nome": "estatística_aplicada_à_telemática",
+        "nome": "estatística-aplicada-à-telemática",
         "ch": "67",
         "pr": "26"
     },
     {
         "id": "33",
-        "nome": "sinais_e_sistemas",
+        "nome": "sinais-e-sistemas",
         "ch": "67",
         "pr": "22"
     },
     {
         "id": "34",
-        "nome": "administração_de_sistemas",
+        "nome": "administração-de-sistemas",
         "ch": "67",
         "pr": "14"
     },
     {
         "id": "35",
-        "nome": "sistemas_operacionais",
+        "nome": "sistemas-operacionais",
         "ch": "67",
         "pr": "25"
     },
     {
         "id": "36",
-        "nome": "programação_iii",
+        "nome": "programação-iii",
         "ch": "67",
         "pr": "21"
     },
     {
         "id": "37",
-        "nome": "metodologia_da_pesquisa_cientifica",
+        "nome": "metodologia-da-pesquisa-cientifica",
         "ch": "33",
         "pr": "0"
     },
     {
         "id": "42",
-        "nome": "cabeamento_estruturado",
+        "nome": "cabeamento-estruturado",
         "ch": "67",
         "pr": "31"
     },
     {
         "id": "41",
-        "nome": "interconexão_de_redes",
+        "nome": "interconexão-de-redes",
         "ch": "67",
         "pr": "31"
     },
     {
         "id": "43",
-        "nome": "teoria_da_informação_e_codificação",
+        "nome": "teoria-da-informação-e-codificação",
         "ch": "67",
         "pr": "32"
     },
     {
         "id": "44",
-        "nome": "sistemas_de_comunicações",
+        "nome": "sistemas-de-comunicações",
         "ch": "67",
         "pr": "32"
     },
     {
         "id": "45",
-        "nome": "processamento_digital_de_sinais",
+        "nome": "processamento-digital-de-sinais",
         "ch": "67",
         "pr": "33"
     },
     {
         "id": "46",
-        "nome": "administração_de_serviços",
+        "nome": "administração-de-serviços",
         "ch": "67",
         "pr": "21"
     },
     {
         "id": "47",
-        "nome": "educação_ambiental_e_sustentabilidade",
+        "nome": "educação-ambiental-e-sustentabilidade",
         "ch": "33",
         "pr": "0"
     },
     {
         "id": "51",
-        "nome": "redes_de_longa_distância",
+        "nome": "redes-de-longa-distância",
         "ch": "67",
         "pr": "41"
     },
     {
         "id": "52",
-        "nome": "segurança_de_redes_de_computadores",
+        "nome": "segurança-de-redes-de-computadores",
         "ch": "67",
         "pr": "41"
     },
     {
         "id": "53",
-        "nome": "comunicações_sem_fio",
+        "nome": "comunicações-sem-fio",
         "ch": "67",
         "pr": "44"
     },
     {
         "id": "54",
-        "nome": "comunicações_ópticas",
+        "nome": "comunicações-ópticas",
         "ch": "67",
         "pr": "44"
     },
     {
         "id": "55",
-        "nome": "projeto_em_telemática",
+        "nome": "projeto-em-telemática",
         "ch": "67",
         "pr": "37"
     },
     {
         "id": "56",
-        "nome": "formação_do_empreendedor",
+        "nome": "formação-do-empreendedor",
         "ch": "33",
         "pr": "0"
     },
     {
         "id": "57",
-        "nome": "optativa_i",
+        "nome": "optativa-i",
         "ch": "67",
         "pr": "0"
     },
     {
         "id": "61",
-        "nome": "projetos_de_redes_de_computadores",
+        "nome": "projetos-de-redes-de-computadores",
         "ch": "67",
         "pr": "42"
     },
     {
         "id": "62",
-        "nome": "sistemas_telefônicos",
+        "nome": "sistemas-telefônicos",
         "ch": "67",
         "pr": "53"
     },
     {
         "id": "63",
-        "nome": "educação_em_direitos_humanos",
+        "nome": "educação-em-direitos-humanos",
         "ch": "33",
-        "pr": "0__"
+        "pr": "0--"
     },
     {
         "id": "64",
-        "nome": "relações_humanas_no_trabalho",
+        "nome": "relações-humanas-no-trabalho",
         "ch": "33",
         "pr": "0"
     },
@@ -241,61 +241,61 @@
     },
     {
         "id": "66",
-        "nome": "trabalho_de_conclusão_de_curso",
+        "nome": "trabalho-de-conclusão-de-curso",
         "ch": "––",
         "pr": "37"
     },
     {
         "id": "67",
-        "nome": "optativa_ii",
+        "nome": "optativa-ii",
         "ch": "67",
         "pr": "0"
     },
     {
         "id": "01",
-        "nome": "estágio_supervisionado*",
+        "nome": "estágio-supervisionado*",
         "ch": "400",
         "pr": "37"
     },
     {
         "id": "02",
-        "nome": "análise_e_projeto_de_sistemas",
+        "nome": "análise-e-projeto-de-sistemas",
         "ch": "67",
         "pr": "24"
     },
     {
         "id": "03",
-        "nome": "banco_de_dados",
+        "nome": "banco-de-dados",
         "ch": "67",
         "pr": "13"
     },
     {
         "id": "04",
-        "nome": "computação_em_nuvem",
+        "nome": "computação-em-nuvem",
         "ch": "67",
         "pr": "0"
     },
     {
         "id": "05",
-        "nome": "governança_de_ti",
+        "nome": "governança-de-ti",
         "ch": "67",
         "pr": "0"
     },
     {
         "id": "06",
-        "nome": "microcontroladores_e_microprocessadores",
+        "nome": "microcontroladores-e-microprocessadores",
         "ch": "67",
         "pr": "25"
     },
     {
         "id": "07",
-        "nome": "tópicos_especiais_em_telemática_i",
+        "nome": "tópicos-especiais-em-telemática-i",
         "ch": "67",
         "pr": "0"
     },
     {
         "id": "08",
-        "nome": "tópicos_especiais_em_telemática_ii",
+        "nome": "tópicos-especiais-em-telemática-ii",
         "ch": "67",
         "pr": "0"
     },
