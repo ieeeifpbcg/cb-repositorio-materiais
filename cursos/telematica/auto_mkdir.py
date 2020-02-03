@@ -1,19 +1,19 @@
 import os
 import json
 
-json_file = open("matriz_n_acentuada.json")
-data = json.load(json_file)
+matriz_json = open("matriz_n_acentuada.json")
+disciplinas = json.load(matriz_json)
 
 for i in range(0,7):
   os.system("mkdir periodo-"+str(i))
    
 
-for i in data:
-  for j in range(0,7):
-    if i["id"][0] == str(j):
-      os.system("mkdir ./periodo-"+str(j)+"/"+i["nome"])
-      os.system("echo \"#"+i["nome"]+"\" >> ./periodo-"+str(j)+"/"+i["nome"]+"/readme.md")
-      print("mkdir ./p"+str(j)+"/"+i["nome"])
-      print("echo \"#"+i["nome"]+"\" >> ./p"+str(j)+"/"+i["nome"]+"/readme.md")
+for disciplina in disciplinas:
+  for i in range(0,7):
+    if disciplina["id"][0] == str(i):
+      os.system("mkdir ./periodo-"+str(i)+"/"+disciplina["nome"])
+      os.system("echo \"#"+disciplina["nome"]+"\" >> ./periodo-"+str(i)+"/"+disciplina["nome"]+"/readme.md")
+      print("mkdir ./p"+str(i)+"/"+disciplina["nome"])
+      print("echo \"#"+disciplina["nome"]+"\" >> ./p"+str(disciplina)+"/"+disciplina["nome"]+"/readme.md")
 
 os.system("mv periodo-0 optativas")
