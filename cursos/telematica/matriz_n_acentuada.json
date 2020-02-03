@@ -1,0 +1,308 @@
+[
+    {
+        "id": "11",
+        "nome": "introducao_a_telematica",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "12",
+        "nome": "fundamentos_de_eletricidade",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "13",
+        "nome": "programacao_i",
+        "ch": "100",
+        "pr": "0"
+    },
+    {
+        "id": "14",
+        "nome": "laboratorio_de_sistemas_abertos",
+        "ch": "067",
+        "pr": "0"
+    },
+    {
+        "id": "15",
+        "nome": "ingles_instrumental",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "16",
+        "nome": "pre-calculo",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "17",
+        "nome": "lingua_portuguesa",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "21",
+        "nome": "redes_de_computadores",
+        "ch": "67",
+        "pr": "11"
+    },
+    {
+        "id": "22",
+        "nome": "eletronica_para_telecomunicacoes",
+        "ch": "67",
+        "pr": "12"
+    },
+    {
+        "id": "23",
+        "nome": "medicao_eletroeletronica",
+        "ch": "33",
+        "pr": "12"
+    },
+    {
+        "id": "24",
+        "nome": "programacao_ii",
+        "ch": "67",
+        "pr": "13"
+    },
+    {
+        "id": "25",
+        "nome": "arquitetura_de_computadores",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "26",
+        "nome": "calculo_diferencial_e_integral",
+        "ch": "67",
+        "pr": "16"
+    },
+    {
+        "id": "27",
+        "nome": "educacao_em_diversidade",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "31",
+        "nome": "tecnologias_de_redes_locais",
+        "ch": "67",
+        "pr": "21"
+    },
+    {
+        "id": "32",
+        "nome": "estatistica_aplicada_a_telematica",
+        "ch": "67",
+        "pr": "26"
+    },
+    {
+        "id": "33",
+        "nome": "sinais_e_sistemas",
+        "ch": "67",
+        "pr": "22"
+    },
+    {
+        "id": "34",
+        "nome": "administracao_de_sistemas",
+        "ch": "67",
+        "pr": "14"
+    },
+    {
+        "id": "35",
+        "nome": "sistemas_operacionais",
+        "ch": "67",
+        "pr": "25"
+    },
+    {
+        "id": "36",
+        "nome": "programacao_iii",
+        "ch": "67",
+        "pr": "21"
+    },
+    {
+        "id": "37",
+        "nome": "metodologia_da_pesquisa_cientifica",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "42",
+        "nome": "cabeamento_estruturado",
+        "ch": "67",
+        "pr": "31"
+    },
+    {
+        "id": "41",
+        "nome": "interconexao_de_redes",
+        "ch": "67",
+        "pr": "31"
+    },
+    {
+        "id": "43",
+        "nome": "teoria_da_informacao_e_codificacao",
+        "ch": "67",
+        "pr": "32"
+    },
+    {
+        "id": "44",
+        "nome": "sistemas_de_comunicacoes",
+        "ch": "67",
+        "pr": "32"
+    },
+    {
+        "id": "45",
+        "nome": "processamento_digital_de_sinais",
+        "ch": "67",
+        "pr": "33"
+    },
+    {
+        "id": "46",
+        "nome": "administracao_de_servicos",
+        "ch": "67",
+        "pr": "21"
+    },
+    {
+        "id": "47",
+        "nome": "educacao_ambiental_e_sustentabilidade",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "51",
+        "nome": "redes_de_longa_distancia",
+        "ch": "67",
+        "pr": "41"
+    },
+    {
+        "id": "52",
+        "nome": "seguranca_de_redes_de_computadores",
+        "ch": "67",
+        "pr": "41"
+    },
+    {
+        "id": "53",
+        "nome": "comunicacoes_sem_fio",
+        "ch": "67",
+        "pr": "44"
+    },
+    {
+        "id": "54",
+        "nome": "comunicacoes_opticas",
+        "ch": "67",
+        "pr": "44"
+    },
+    {
+        "id": "55",
+        "nome": "projeto_em_telematica",
+        "ch": "67",
+        "pr": "37"
+    },
+    {
+        "id": "56",
+        "nome": "formacao_do_empreendedor",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "57",
+        "nome": "optativa_i",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "61",
+        "nome": "projetos_de_redes_de_computadores",
+        "ch": "67",
+        "pr": "42"
+    },
+    {
+        "id": "62",
+        "nome": "sistemas_telefonicos",
+        "ch": "67",
+        "pr": "53"
+    },
+    {
+        "id": "63",
+        "nome": "educacao_em_direitos_humanos",
+        "ch": "33",
+        "pr": "0__"
+    },
+    {
+        "id": "64",
+        "nome": "relacoes_humanas_no_trabalho",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "65",
+        "nome": "etica",
+        "ch": "33",
+        "pr": "0"
+    },
+    {
+        "id": "66",
+        "nome": "trabalho_de_conclusao_de_curso",
+        "ch": "--",
+        "pr": "37"
+    },
+    {
+        "id": "67",
+        "nome": "optativa_ii",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "01",
+        "nome": "estagio_supervisionado*",
+        "ch": "400",
+        "pr": "37"
+    },
+    {
+        "id": "02",
+        "nome": "analise_e_projeto_de_sistemas",
+        "ch": "67",
+        "pr": "24"
+    },
+    {
+        "id": "03",
+        "nome": "banco_de_dados",
+        "ch": "67",
+        "pr": "13"
+    },
+    {
+        "id": "04",
+        "nome": "computacao_em_nuvem",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "05",
+        "nome": "governanca_de_ti",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "06",
+        "nome": "microcontroladores_e_microprocessadores",
+        "ch": "67",
+        "pr": "25"
+    },
+    {
+        "id": "07",
+        "nome": "topicos_especiais_em_telematica_i",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "08",
+        "nome": "topicos_especiais_em_telematica_ii",
+        "ch": "67",
+        "pr": "0"
+    },
+    {
+        "id": "09",
+        "nome": "libras",
+        "ch": "33",
+        "pr": "0"
+    }
+]
