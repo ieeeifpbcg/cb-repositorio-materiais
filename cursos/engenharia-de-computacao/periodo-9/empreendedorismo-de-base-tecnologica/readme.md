@@ -1,1 +1,0 @@
-#empreendedorismo-de-base-tecnologica

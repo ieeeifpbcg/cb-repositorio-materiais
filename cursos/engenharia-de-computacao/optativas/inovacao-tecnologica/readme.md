@@ -1,1 +1,0 @@
-#inovacao-tecnologica

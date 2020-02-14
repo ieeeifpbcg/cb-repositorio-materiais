@@ -1,1 +1,0 @@
-#computacao-em-nuvem

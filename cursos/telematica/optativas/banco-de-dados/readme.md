@@ -1,1 +1,0 @@
-#banco-de-dados

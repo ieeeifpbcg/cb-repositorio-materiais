@@ -1,1 +1,0 @@
-#medicao-eletro-eletronica

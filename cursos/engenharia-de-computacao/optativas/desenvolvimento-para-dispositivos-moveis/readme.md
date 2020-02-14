@@ -1,1 +1,0 @@
-#desenvolvimento-para-dispositivos-moveis

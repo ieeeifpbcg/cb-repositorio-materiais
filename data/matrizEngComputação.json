@@ -1,31 +1,31 @@
 [
     {
         "id": "11",
-        "nome": "pré-cálculo",
+        "nome": "pre-calculo",
         "ch": 67,
         "pr": "0"
     },
     {
         "id": "12",
-        "nome": "inglês-instrumental",
+        "nome": "ingles-instrumental",
         "ch": 33,
         "pr": "0"
     },
     {
         "id": "13",
-        "nome": "introdução-à-engenharia-de-computação",
+        "nome": "introducao-a-engenharia-de-computacao",
         "ch": 33,
         "pr": "0"
     },
     {
         "id": "14",
-        "nome": "algoritmos-e-programação",
+        "nome": "algoritmos-e-programacao",
         "ch": 67,
         "pr": "0"
     },
     {
         "id": "15",
-        "nome": "laboratório-de-algoritmos-e-programação",
+        "nome": "laboratorio-de-algoritmos-e-programacao",
         "ch": 67,
         "pr": "0"
     },
@@ -37,25 +37,25 @@
     },
     {
         "id": "17",
-        "nome": "medição-eletro-eletrônica",
+        "nome": "medicao-eletro-eletronica",
         "ch": 33,
         "pr": "0"
     },
     {
         "id": "21",
-        "nome": "cálculo-i",
+        "nome": "calculo-i",
         "ch": 67,
         "pr": "11"
     },
     {
         "id": "22",
-        "nome": "estatística-aplicada-à-computação",
+        "nome": "estatistica-aplicada-a-computacao",
         "ch": 67,
         "pr": "0"
     },
     {
         "id": "23",
-        "nome": "leitura-e-produção-de-textos",
+        "nome": "leitura-e-producao-de-textos",
         "ch": -33,
         "pr": "0"
     },
@@ -67,7 +67,7 @@
     },
     {
         "id": "25",
-        "nome": "laboratório-de-estrutura-de-dados-e-algoritmos",
+        "nome": "laboratorio-de-estrutura-de-dados-e-algoritmos",
         "ch": 33,
         "pr": "15"
     },
@@ -79,19 +79,19 @@
     },
     {
         "id": "27",
-        "nome": "educação-ambiental-e-sustentabilidade",
+        "nome": "educacao-ambiental-e-sustentabilidade",
         "ch": 33,
         "pr": "0"
     },
     {
         "id": "31",
-        "nome": "cálculo-ii",
+        "nome": "calculo-ii",
         "ch": 67,
         "pr": "-21"
     },
     {
         "id": "32",
-        "nome": "relações-humanas-no-trabalho",
+        "nome": "relacoes-humanas-no-trabalho",
         "ch": 33,
         "pr": "0"
     },
@@ -103,37 +103,37 @@
     },
     {
         "id": "34",
-        "nome": "programação-orientada-a-objetos",
+        "nome": "programacao-orientada-a-objetos",
         "ch": 67,
         "pr": "14"
     },
     {
         "id": "35",
-        "nome": "laboratório-de-programação-orientada-a-objetos",
+        "nome": "laboratorio-de-programacao-orientada-a-objetos",
         "ch": 67,
         "pr": "15"
     },
     {
         "id": "36",
-        "nome": "organização-e-arquitetura-de-computadores",
+        "nome": "organizacao-e-arquitetura-de-computadores",
         "ch": 67,
         "pr": "26"
     },
     {
         "id": "41",
-        "nome": "física-clássica",
+        "nome": "fisica-classica",
         "ch": 67,
         "pr": "21"
     },
     {
         "id": "42",
-        "nome": "metodologia-da-pesquisa-científica",
+        "nome": "metodologia-da-pesquisa-cientifica",
         "ch": 67,
         "pr": "0"
     },
     {
         "id": "43",
-        "nome": "teoria-da-computação",
+        "nome": "teoria-da-computacao",
         "ch": 67,
         "pr": "24"
     },
@@ -151,7 +151,7 @@
     },
     {
         "id": "51",
-        "nome": "álgebra-linear-aplicada-à-computação",
+        "nome": "algebra-linear-aplicada-a-computacao",
         "ch": 67,
         "pr": "31"
     },
@@ -181,19 +181,19 @@
     },
     {
         "id": "61",
-        "nome": "métodos-numéricos",
+        "nome": "metodos-numericos",
         "ch": 67,
         "pr": "51-"
     },
     {
         "id": "62",
-        "nome": "inteligência-artificial",
+        "nome": "inteligencia-artificial",
         "ch": 67,
         "pr": "43"
     },
     {
         "id": "63",
-        "nome": "padrões-de-projetos",
+        "nome": "padroes-de-projetos",
         "ch": 67,
         "pr": "34,35"
     },
@@ -205,7 +205,7 @@
     },
     {
         "id": "65",
-        "nome": "verificação-funcional-de-sistemas-digitais",
+        "nome": "verificacao-funcional-de-sistemas-digitais",
         "ch": 67,
         "pr": "55"
     },
@@ -217,13 +217,13 @@
     },
     {
         "id": "72",
-        "nome": "análise-e-técnicas-de-algoritmos",
+        "nome": "analise-e-tecnicas-de-algoritmos",
         "ch": 67,
         "pr": "24"
     },
     {
         "id": "73",
-        "nome": "análise-e-projetos-de-sistemas",
+        "nome": "analise-e-projetos-de-sistemas",
         "ch": 67,
         "pr": "63"
     },
@@ -235,7 +235,7 @@
     },
     {
         "id": "75",
-        "nome": "circuitos-elétro-eletrônicos",
+        "nome": "circuitos-eletro-eletronicos",
         "ch": 100,
         "pr": "52,64"
     },
@@ -247,13 +247,13 @@
     },
     {
         "id": "82",
-        "nome": "gerência-de-projetos",
+        "nome": "gerencia-de-projetos",
         "ch": 67,
         "pr": "73"
     },
     {
         "id": "83",
-        "nome": "técnicas-de-prototipagem",
+        "nome": "tecnicas-de-prototipagem",
         "ch": 67,
         "pr": "74"
     },
@@ -271,13 +271,13 @@
     },
     {
         "id": "91",
-        "nome": "empreendedorismo-de-base-tecnológica",
+        "nome": "empreendedorismo-de-base-tecnologica",
         "ch": 67,
         "pr": "0"
     },
     {
         "id": "92",
-        "nome": "projeto-em-engenharia-de-computação-i",
+        "nome": "projeto-em-engenharia-de-computacao-i",
         "ch": 67,
         "pr": "83"
     },
@@ -289,140 +289,26 @@
     },
     {
         "id": "94",
-        "nome": "controle-e-automação-i",
+        "nome": "controle-e-automacao-i",
         "ch": 67,
         "pr": "61,75"
     },
     {
         "id": "101",
-        "nome": "educação-em-direitos-humanos",
+        "nome": "educacao-em-direitos-humanos",
         "ch": 33,
         "pr": "0"
     },
     {
         "id": "102",
-        "nome": "educação-em-diversidade",
+        "nome": "educacao-em-diversidade",
         "ch": 33,
         "pr": "0"
     },
     {
         "id": "103",
-        "nome": "projeto-em-engenharia-de-computação-ii",
+        "nome": "projeto-em-engenharia-de-computacao-ii",
         "ch": 67,
         "pr": "92"
-    },
-    {
-        "id": "op01",
-        "nome": "desenvolvimento-de-sistemas-para-web",
-        "ch": 67,
-        "pr": "54,63"
-    },
-    {
-        "id": "op02",
-        "nome": "teoria-da-informação-e-codificação",
-        "ch": 67,
-        "pr": "31,-43,64"
-    },
-    {
-        "id": "op03",
-        "nome": "mineração-de-dados",
-        "ch": 67,
-        "pr": "22,54,62"
-    },
-    {
-        "id": "op04",
-        "nome": "inteligência-de-negócio",
-        "ch": 67,
-        "pr": "0"
-    },
-    {
-        "id": "op05",
-        "nome": "segurança-da-informação",
-        "ch": 67,
-        "pr": "44,53"
-    },
-    {
-        "id": "op06",
-        "nome": "álgebra-vetorial-e-geometria-analítica",
-        "ch": 67,
-        "pr": "11"
-    },
-    {
-        "id": "op07",
-        "nome": "cálculo-iii",
-        "ch": 67,
-        "pr": "31"
-    },
-    {
-        "id": "op08",
-        "nome": "computação-pervasiva",
-        "ch": 67,
-        "pr": "53,93"
-    },
-    {
-        "id": "op09",
-        "nome": "desenvolvimento-para-dispositivos-móveis",
-        "ch": 67,
-        "pr": "54,63"
-    },
-    {
-        "id": "op10",
-        "nome": "sistemas-multiagente",
-        "ch": 67,
-        "pr": "62"
-    },
-    {
-        "id": "op11",
-        "nome": "compiladores",
-        "ch": 67,
-        "pr": "43"
-    },
-    {
-        "id": "op12",
-        "nome": "internet-das-coisas",
-        "ch": 67,
-        "pr": "53"
-    },
-    {
-        "id": "op13",
-        "nome": "processamento-digital-de-imagem",
-        "ch": 67,
-        "pr": "24,84"
-    },
-    {
-        "id": "op14",
-        "nome": "robótica",
-        "ch": 67,
-        "pr": "62,94"
-    },
-    {
-        "id": "op15",
-        "nome": "inovação-tecnológica",
-        "ch": 67,
-        "pr": "0"
-    },
-    {
-        "id": "op16",
-        "nome": "controle-e-automação-ii",
-        "ch": 67,
-        "pr": "94"
-    },
-    {
-        "id": "op17",
-        "nome": "coprojeto-de-hardware-e-software",
-        "ch": 67,
-        "pr": "45,65"
-    },
-    {
-        "id": "op18",
-        "nome": "tópicos-especiais-em-engenharia-de-computação-i",
-        "ch": 67,
-        "pr": "0"
-    },
-    {
-        "id": "op19",
-        "nome": "tópicos-especiais-em-engenharia-de-computação-ii",
-        "ch": 67,
-        "pr": "0"
     }
 ]

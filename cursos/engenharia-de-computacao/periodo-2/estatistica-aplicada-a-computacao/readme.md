@@ -1,1 +1,0 @@
-#estatistica-aplicada-a-computacao

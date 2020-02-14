@@ -1,1 +1,0 @@
-#desenho-assistido-por-computador
