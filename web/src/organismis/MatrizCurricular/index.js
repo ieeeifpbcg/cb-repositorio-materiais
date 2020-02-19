@@ -1,12 +1,13 @@
 import React from 'react';
 
+import PropTypes from 'prop-types';
+
 import BoxDisciplina from '~/atoms/BoxDisciplina';
 import BoxSemestre from '~/atoms/BoxSemestre';
 
 import { Container, Semestre } from './styles';
 
-// { matriz, semestres }
-export default function MatrizCurricular() {
+export default function MatrizCurricular({matriz, semestres}) {
   return (
     <Container>
       <Semestre>
@@ -40,3 +41,15 @@ export default function MatrizCurricular() {
     </Container>
   );
 }
+
+MatrizCurricular.propTypes = {
+  matriz: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      nome: PropTypes.string.isRequired,
+      ch: PropTypes.string.isRequired,
+      pr: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  semestres: PropTypes.number.isRequired,
+};
