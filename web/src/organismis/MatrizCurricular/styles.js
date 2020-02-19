@@ -6,8 +6,9 @@ export const Container = styled.ol`
   display: flex;
 `;
 
-export const Semestre = styled.ol`
-  button {
-    margin-top: 10px;
-  }
+export const Semestre = styled.li`
+  margin-top: 10px;
+`;
+
+export const Disciplinas = styled.ol`
 `;
