@@ -1,57 +1,28 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect } from 'react';
 
 import PropTypes from 'prop-types';
 
-import BoxDisciplina from '~/atoms/BoxDisciplina';
-import BoxSemestre from '~/atoms/BoxSemestre';
+import ListaDisciplinas from '~/molecules/ListaDisciplinas';
 
-import { Container, Semestre, Disciplinas } from './styles';
+import { Container } from './styles';
 
-export default function MatrizCurricular({matriz, semestres}) {
-  const [semestresArray, setSemestresArray] = useState([]);
-  for (let i = 0; i < semestres; i++) {
-    setSemestresArray(oldSemestre => [...oldSemestre, []]);
-  };
-
+export default function MatrizCurricular({ matriz, semestres }) {
+  const semestresArray = [];
   useEffect(() => {
-    matriz.forEach( disc => {
-      setSemestresArray(oldSemestre => {
-        oldSemestre[Number.parseInt(disc.id.charAt(0))].push(disc);
-      });
+    // eslint-disable-next-line no-plusplus
+    for (let i = 0; i < semestres + 1; i++) {
+      semestresArray.push([]);
+    }
+    matriz.forEach(disc => {
+      // eslint-disable-next-line radix
+      semestresArray[Number.parseInt(disc.id.charAt(0))].push(disc);
     });
-  }, []);
-  return (
-    <Container>
-      {semestres.map((elementSemestre, index) =>
-        (<Semestre> 
-          <BoxSemestre> Semestre {index} </BoxSemestre>
-          <Disciplinas {}>
-            {
-              elementSemestre.map(elementDisciplina => 
-                return (
-                  <li>
-                    <BoxDisciplina disciplina={elementDisciplina}/>
-                  </li>)
-            }
-          </Disciplinas>
-        </Semestre>)
-      }
-      <Semestre>
-        <BoxSemestre> Semestre I </BoxSemestre>
-        <li>
-          <BoxDisciplina
-            bg="#95C085"
-            disciplina={{
-              id: '11',
-              nome: 'introdução-à-telemática',
-              ch: '33',
-              pr: '0',
-            }}
-          />
-        </li>
-      </Semestre>
-    </Container>
-  );
+  }, [matriz, semestres, semestresArray]);
+
+  const listasDisciplinas = semestresArray.map((element, index) => (
+    <ListaDisciplinas key={element.id} disciplinas={element} numero={index} />
+  ));
+  return <Container>{listasDisciplinas}</Container>;
 }
 
 MatrizCurricular.propTypes = {
