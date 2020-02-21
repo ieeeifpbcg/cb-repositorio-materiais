@@ -20,7 +20,8 @@ export default function MatrizCurricular({ matriz, semestres }) {
   }, [matriz, semestres, semestresArray]);
 
   const listasDisciplinas = semestresArray.map((element, index) => (
-    <ListaDisciplinas key={element.id} disciplinas={element} numero={index} />
+    // eslint-disable-next-line react/no-array-index-key
+    <ListaDisciplinas key={index} disciplinas={element} numero={index} />
   ));
   return <Container>{listasDisciplinas}</Container>;
 }
