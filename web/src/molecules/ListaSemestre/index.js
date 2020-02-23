@@ -2,21 +2,23 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
-import BoxDisciplina from '~/atoms/BoxSemestre';
+import BoxDisciplina from '~/atoms/BoxDisciplina';
+import BoxSemestre from '~/atoms/BoxSemestre';
 
 import { Container } from './styles';
 
-export default function ListaDisciplinas({ disciplinas }) {
+export default function ListaSemestre({ disciplinas, number }) {
   return (
     <Container>
+      <BoxSemestre number={number} />
       {disciplinas.map(element => {
-        return <BoxDisciplina id={element.id} disciplina={element} bg="#000" />;
+        return <BoxDisciplina id={element.id} disciplina={element} />;
       })}
     </Container>
   );
 }
 
-ListaDisciplinas.propTypes = {
+ListaSemestre.propTypes = {
   disciplinas: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string,
@@ -25,4 +27,5 @@ ListaDisciplinas.propTypes = {
       pr: PropTypes.string.isRequired,
     })
   ).isRequired,
+  number: PropTypes.number.isRequired,
 };
