@@ -1,310 +1,310 @@
 {
   "telematica": [
     {
-      "id": "011",
+      "código": "011",
       "nome": "introducao-a-telematica",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "012",
+      "código": "012",
       "nome": "fundamentos-de-eletricidade",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "013",
+      "código": "013",
       "nome": "programacao-i",
-      "ch": "100",
-      "pr": "0"
+      "carga_horaria": "100",
+      "pre_requisito": "0"
     },
     {
-      "id": "014",
+      "código": "014",
       "nome": "laboratorio-de-sistemas-abertos",
-      "ch": "067",
-      "pr": "0"
+      "carga_horaria": "067",
+      "pre_requisito": "0"
     },
     {
-      "id": "015",
+      "código": "015",
       "nome": "ingles-instrumental",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "016",
+      "código": "016",
       "nome": "pre-calculo",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "017",
+      "código": "017",
       "nome": "lingua-portuguesa",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "021",
+      "código": "021",
       "nome": "redes-de-computadores",
-      "ch": "67",
-      "pr": "11"
+      "carga_horaria": "67",
+      "pre_requisito": "11"
     },
     {
-      "id": "022",
+      "código": "022",
       "nome": "eletronica-para-telecomunicacoes",
-      "ch": "67",
-      "pr": "12"
+      "carga_horaria": "67",
+      "pre_requisito": "12"
     },
     {
-      "id": "023",
+      "código": "023",
       "nome": "medicao-eletroeletronica",
-      "ch": "33",
-      "pr": "12"
+      "carga_horaria": "33",
+      "pre_requisito": "12"
     },
     {
-      "id": "024",
+      "código": "024",
       "nome": "programacao-ii",
-      "ch": "67",
-      "pr": "13"
+      "carga_horaria": "67",
+      "pre_requisito": "13"
     },
     {
-      "id": "025",
+      "código": "025",
       "nome": "arquitetura-de-computadores",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "026",
+      "código": "026",
       "nome": "calculo-diferencial-e-integral",
-      "ch": "67",
-      "pr": "16"
+      "carga_horaria": "67",
+      "pre_requisito": "16"
     },
     {
-      "id": "027",
+      "código": "027",
       "nome": "educacao-em-diversidade",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "031",
+      "código": "031",
       "nome": "tecnologias-de-redes-locais",
-      "ch": "67",
-      "pr": "21"
+      "carga_horaria": "67",
+      "pre_requisito": "21"
     },
     {
-      "id": "032",
+      "código": "032",
       "nome": "estatistica-aplicada-a-telematica",
-      "ch": "67",
-      "pr": "26"
+      "carga_horaria": "67",
+      "pre_requisito": "26"
     },
     {
-      "id": "033",
+      "código": "033",
       "nome": "sinais-e-sistemas",
-      "ch": "67",
-      "pr": "22"
+      "carga_horaria": "67",
+      "pre_requisito": "22"
     },
     {
-      "id": "034",
+      "código": "034",
       "nome": "administracao-de-sistemas",
-      "ch": "67",
-      "pr": "14"
+      "carga_horaria": "67",
+      "pre_requisito": "14"
     },
     {
-      "id": "035",
+      "código": "035",
       "nome": "sistemas-operacionais",
-      "ch": "67",
-      "pr": "25"
+      "carga_horaria": "67",
+      "pre_requisito": "25"
     },
     {
-      "id": "036",
+      "código": "036",
       "nome": "programacao-iii",
-      "ch": "67",
-      "pr": "21"
+      "carga_horaria": "67",
+      "pre_requisito": "21"
     },
     {
-      "id": "037",
+      "código": "037",
       "nome": "metodologia-da-pesquisa-cientifica",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "042",
+      "código": "042",
       "nome": "cabeamento-estruturado",
-      "ch": "67",
-      "pr": "31"
+      "carga_horaria": "67",
+      "pre_requisito": "31"
     },
     {
-      "id": "041",
+      "código": "041",
       "nome": "interconexao-de-redes",
-      "ch": "67",
-      "pr": "31"
+      "carga_horaria": "67",
+      "pre_requisito": "31"
     },
     {
-      "id": "043",
+      "código": "043",
       "nome": "teoria-da-informacao-e-codificacao",
-      "ch": "67",
-      "pr": "32"
+      "carga_horaria": "67",
+      "pre_requisito": "32"
     },
     {
-      "id": "044",
+      "código": "044",
       "nome": "sistemas-de-comunicacoes",
-      "ch": "67",
-      "pr": "32"
+      "carga_horaria": "67",
+      "pre_requisito": "32"
     },
     {
-      "id": "045",
+      "código": "045",
       "nome": "processamento-digital-de-sinais",
-      "ch": "67",
-      "pr": "33"
+      "carga_horaria": "67",
+      "pre_requisito": "33"
     },
     {
-      "id": "046",
+      "código": "046",
       "nome": "administracao-de-servicos",
-      "ch": "67",
-      "pr": "21"
+      "carga_horaria": "67",
+      "pre_requisito": "21"
     },
     {
-      "id": "047",
+      "código": "047",
       "nome": "educacao-ambiental-e-sustentabilidade",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "051",
+      "código": "051",
       "nome": "redes-de-longa-distancia",
-      "ch": "67",
-      "pr": "41"
+      "carga_horaria": "67",
+      "pre_requisito": "41"
     },
     {
-      "id": "052",
+      "código": "052",
       "nome": "seguranca-de-redes-de-computadores",
-      "ch": "67",
-      "pr": "41"
+      "carga_horaria": "67",
+      "pre_requisito": "41"
     },
     {
-      "id": "053",
+      "código": "053",
       "nome": "comunicacoes-sem-fio",
-      "ch": "67",
-      "pr": "44"
+      "carga_horaria": "67",
+      "pre_requisito": "44"
     },
     {
-      "id": "054",
+      "código": "054",
       "nome": "comunicacoes-opticas",
-      "ch": "67",
-      "pr": "44"
+      "carga_horaria": "67",
+      "pre_requisito": "44"
     },
     {
-      "id": "055",
+      "código": "055",
       "nome": "projeto-em-telematica",
-      "ch": "67",
-      "pr": "37"
+      "carga_horaria": "67",
+      "pre_requisito": "37"
     },
     {
-      "id": "056",
+      "código": "056",
       "nome": "formacao-do-empreendedor",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "057",
+      "código": "057",
       "nome": "optativa-i",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "061",
+      "código": "061",
       "nome": "projetos-de-redes-de-computadores",
-      "ch": "67",
-      "pr": "42"
+      "carga_horaria": "67",
+      "pre_requisito": "42"
     },
     {
-      "id": "062",
+      "código": "062",
       "nome": "sistemas-telefonicos",
-      "ch": "67",
-      "pr": "53"
+      "carga_horaria": "67",
+      "pre_requisito": "53"
     },
     {
-      "id": "063",
+      "código": "063",
       "nome": "educacao-em-direitos-humanos",
-      "ch": "33",
-      "pr": "0--"
+      "carga_horaria": "33",
+      "pre_requisito": "0--"
     },
     {
-      "id": "064",
+      "código": "064",
       "nome": "relacoes-humanas-no-trabalho",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "065",
+      "código": "065",
       "nome": "etica",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     },
     {
-      "id": "066",
+      "código": "066",
       "nome": "trabalho-de-conclusao-de-curso",
-      "ch": "--",
-      "pr": "37"
+      "carga_horaria": "--",
+      "pre_requisito": "37"
     },
     {
-      "id": "067",
+      "código": "067",
       "nome": "optativa-ii",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "001",
+      "código": "001",
       "nome": "estagio-supervisionado*",
-      "ch": "400",
-      "pr": "37"
+      "carga_horaria": "400",
+      "pre_requisito": "37"
     },
     {
-      "id": "002",
+      "código": "002",
       "nome": "analise-e-projeto-de-sistemas",
-      "ch": "67",
-      "pr": "24"
+      "carga_horaria": "67",
+      "pre_requisito": "24"
     },
     {
-      "id": "003",
+      "código": "003",
       "nome": "banco-de-dados",
-      "ch": "67",
-      "pr": "13"
+      "carga_horaria": "67",
+      "pre_requisito": "13"
     },
     {
-      "id": "004",
+      "código": "004",
       "nome": "computacao-em-nuvem",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "005",
+      "código": "005",
       "nome": "governanca-de-ti",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "006",
+      "código": "006",
       "nome": "microcontroladores-e-microprocessadores",
-      "ch": "67",
-      "pr": "25"
+      "carga_horaria": "67",
+      "pre_requisito": "25"
     },
     {
-      "id": "007",
+      "código": "007",
       "nome": "topicos-especiais-em-telematica-i",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "008",
+      "código": "008",
       "nome": "topicos-especiais-em-telematica-ii",
-      "ch": "67",
-      "pr": "0"
+      "carga_horaria": "67",
+      "pre_requisito": "0"
     },
     {
-      "id": "009",
+      "código": "009",
       "nome": "libras",
-      "ch": "33",
-      "pr": "0"
+      "carga_horaria": "33",
+      "pre_requisito": "0"
     }
   ]
 }

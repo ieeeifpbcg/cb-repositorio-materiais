@@ -1,4 +1,4 @@
-id,nome,ch,pr
+código,nome,carga_horaria,pre_requisito
 011,introducao-a-telematica,33,0
 012,fundamentos-de-eletricidade,67,0
 013,programacao-i,100,0

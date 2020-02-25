@@ -109,7 +109,7 @@ def criaPastasCurso(curso, caminhoJson, numPeriodos):
                 os.system(
                     'echo "'
                     + md
-                    + '" >> '
+                    + '" > '
                     + caminho
                     + curso
                     + "/periodo-"
@@ -135,7 +135,7 @@ def criaPastasCurso(curso, caminhoJson, numPeriodos):
         os.system(
             'echo "'
             + md
-            + '" >> '
+            + '" > '
             + caminho
             + "optativas/"
             + disciplina["nome"]
