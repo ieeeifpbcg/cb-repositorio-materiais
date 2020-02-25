@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 import json
 
@@ -64,7 +66,6 @@ def criaReadmeMd(disciplina, periodo, cargaHoraria, ementa):
 """)
 
 
-
 def criaPastasCurso(curso, caminhoJson, numPeriodos):
     # Função que cria as pastas de cada disciplina na pasta correspondente ao seu periodo juntamente com seu readme.md. Só é possivel utilizar este script em sistemas Unix.
 
@@ -72,9 +73,9 @@ def criaPastasCurso(curso, caminhoJson, numPeriodos):
     caminho = "../cursos/"
 
     optativas = list(
-        filter(lambda disciplina: disciplina["id"][0] == "0", disciplinas))
-    disciplinas = list(
-        filter(lambda disciplina: disciplina["id"][0] != "0", disciplinas))
+        filter(lambda disciplina: disciplina["codigo"][:2] == "00", disciplinas))
+    obrigatorias = list(
+        filter(lambda disciplina: disciplina["codigo"][:2] != "00", disciplinas))
 
     os.system("mkdir " + caminho + curso)
     os.system("mkdir " + caminho + "optativas")
@@ -88,13 +89,13 @@ def criaPastasCurso(curso, caminhoJson, numPeriodos):
             + str(i)
             + "/")
 
-    for disciplina in disciplinas:
+    for disciplina in obrigatorias:
         for i in range(0, numPeriodos + 1):
-            if disciplina["id"][0] == str(i):
+            if disciplina["codigo"][1:2] == str(i):
                 md = criaReadmeMd(disciplina["nome"],
-                                  disciplina["id"][0],
-                                  disciplina["ch"],
-                                  "ementa")
+                                  disciplina["codigo"][1:2],
+                                  str(disciplina["carga_horaria"]),
+                                  disciplina["ementa"])
 
                 os.system(
                     "mkdir "
@@ -103,7 +104,7 @@ def criaPastasCurso(curso, caminhoJson, numPeriodos):
                     + "/periodo-"
                     + str(i)
                     + "/"
-                    + disciplina["nome"]
+                    + disciplina["slug"]
                     + "/"
                 )
                 os.system(
@@ -115,21 +116,21 @@ def criaPastasCurso(curso, caminhoJson, numPeriodos):
                     + "/periodo-"
                     + str(i)
                     + "/"
-                    + disciplina["nome"]
+                    + disciplina["slug"]
                     + "/readme.md"
                 )
 
     for disciplina in optativas:
         md = criaReadmeMd(disciplina["nome"],
-                          disciplina["id"][0],
-                          disciplina["ch"],
-                          "ementa")
+                          "optativa",
+                          str(disciplina["carga_horaria"]),
+                          disciplina["ementa"])
 
         os.system(
             "mkdir "
             + caminho
             + "optativas/"
-            + disciplina["nome"]
+            + disciplina["slug"]
         )
 
         os.system(
@@ -138,14 +139,14 @@ def criaPastasCurso(curso, caminhoJson, numPeriodos):
             + '" > '
             + caminho
             + "optativas/"
-            + disciplina["nome"]
+            + disciplina["slug"]
             + "/readme.md"
         )
 
 
 criaPastasCurso(curso="telematica",
-                caminhoJson="./matrizTelematica.json", 
+                caminhoJson="matrizTelematica.json",
                 numPeriodos=6)
-criaPastasCurso(curso="engenharia-de-computacao",
-                caminhoJson="./matrizEngComputacao.json", 
-                numPeriodos=10)
+# criaPastasCurso(curso="engenharia-de-computacao",
+#                caminhoJson="./matrizEngComputacao.json",
+#                numPeriodos=10)
