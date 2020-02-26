@@ -15,14 +15,16 @@ function Layout({ title, children }) {
       <SEO title={title} />
       <main> {children} </main>
       <footer>
-        <div>
-          <h4>{'Collab Branch © 2020. Projeto feito com <3 baseado pelo '}</h4>
+        <div className="opendev">
+          <h4>
+            Collab Branch © 2020. Projeto feito com <span>❤</span> baseado pelo
+          </h4>
           <a href="https://opendevufcg.org"> OpenDevUFCG </a>
         </div>
-        <div>
+        <div className="gitlink">
           <a href="https://github.com/ieeeifpbcg/">
             <FaGithub size="30px" />
-            Github
+            GitHub
           </a>
         </div>
       </footer>

@@ -1,13 +1,22 @@
 import styled from 'styled-components';
 
+export const Wrapper = styled.div`
+  max-width: 1020px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
 export const Container = styled.header`
   background: #3fb59b;
   display: flex;
-  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
 `;
 
 export const HeaderText = styled.div`
-  margin: auto auto auto 20vh;
   h2 {
     font-size: 18px;
     font-style: normal;
@@ -16,9 +25,6 @@ export const HeaderText = styled.div`
 `;
 
 export const SearchBox = styled.div`
-  margin: auto 20vh auto auto;
-  float: right;
-
   background: #fff;
   height: 40px;
 

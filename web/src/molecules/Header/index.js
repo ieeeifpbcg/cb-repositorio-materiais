@@ -1,24 +1,24 @@
 import React from 'react';
 import { FiSearch } from 'react-icons/fi';
 
-import { Container, HeaderText, SearchBox } from './styles';
-import GlobalStyle from '~/styles/global';
+import { Container, Wrapper, HeaderText, SearchBox } from './styles';
 
 function Header() {
   return (
     <Container>
-      <GlobalStyle />
-      <HeaderText>
-        <h2>Collab Branch</h2>
-        <h2>Repositório de Materiais</h2>
-      </HeaderText>
+      <Wrapper>
+        <HeaderText>
+          <h2>Collab Branch</h2>
+          <h2>Repositório de Materiais</h2>
+        </HeaderText>
 
-      <SearchBox>
-        <input placeholder="Ex: Programação 1" />
-        <button type="button">
-          <FiSearch size="30px" color="#3FB59B" />
-        </button>
-      </SearchBox>
+        <SearchBox>
+          <input placeholder="Ex: Programação 1" />
+          <button type="button">
+            <FiSearch size="30px" color="#3FB59B" />
+          </button>
+        </SearchBox>
+      </Wrapper>
     </Container>
   );
 }

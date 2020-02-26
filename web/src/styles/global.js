@@ -4,7 +4,7 @@ import { theme } from './theme';
 
 export default createGlobalStyle`
   * {
-    @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,600&display=swap');
     font-family: 'Poppins', sans-serif !important;
     margin: 0;
     padding: 0;
@@ -14,6 +14,10 @@ export default createGlobalStyle`
       background-color: ${theme.primary.active};
       color: ${theme.primary.text};
     }
+  }
+
+  html, body, #root {
+    height: 100%;
   }
 
   html, body {
@@ -33,8 +37,11 @@ export default createGlobalStyle`
 
   a,
   button {
+    cursor: pointer;
     color: ${theme.primary.text};
     text-decoration: none;
+    border: none;
+    outline: none;
   }
 
   li {
