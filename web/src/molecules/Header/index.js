@@ -14,9 +14,7 @@ function Header() {
 
         <SearchBox>
           <input placeholder="Ex: Programação 1" />
-          <button type="button">
-            <FiSearch size="30px" color="#3FB59B" />
-          </button>
+          <FiSearch size="30px" color="#3FB59B" />
         </SearchBox>
       </Wrapper>
     </Container>

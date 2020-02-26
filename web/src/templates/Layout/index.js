@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaHeart } from 'react-icons/fa';
 
 import PropTypes from 'prop-types';
 
@@ -17,7 +17,8 @@ function Layout({ title, children }) {
       <footer>
         <div className="opendev">
           <h4>
-            Collab Branch © 2020. Projeto feito com <span>❤</span> baseado pelo
+            Collab Branch © 2020. Projeto feito com{' '}
+            <FaHeart color="#D2575B" size="16px" /> baseado pelo
           </h4>
           <a href="https://opendevufcg.org"> OpenDevUFCG </a>
         </div>

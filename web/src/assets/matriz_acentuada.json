@@ -65,12 +65,7 @@
     "ch": "67",
     "pr": "13"
   },
-  {
-    "id": "25",
-    "nome": "arquitetura-de-computadores",
-    "ch": "67",
-    "pr": "0"
-  },
+  { "id": "25", "nome": "arquitetura-de-computadores", "ch": "67", "pr": "0" },
   {
     "id": "26",
     "nome": "cálculo-diferencial-e-integral",

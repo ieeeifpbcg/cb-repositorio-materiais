@@ -5,11 +5,13 @@ import PropTypes from 'prop-types';
 import BoxDisciplina from '~/atoms/BoxDisciplina';
 import BoxSemestre from '~/atoms/BoxSemestre';
 
-import { Container } from './styles';
+import { Container, Bar } from './styles';
 
 export default function ListaSemestre({ disciplinas, number }) {
   return (
     <Container>
+      <Bar />
+
       <BoxSemestre number={number} />
       {disciplinas.map(element => {
         return (

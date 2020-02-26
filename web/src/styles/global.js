@@ -4,7 +4,7 @@ import { theme } from './theme';
 
 export default createGlobalStyle`
   * {
-    @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,600&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
     font-family: 'Poppins', sans-serif !important;
     margin: 0;
     padding: 0;

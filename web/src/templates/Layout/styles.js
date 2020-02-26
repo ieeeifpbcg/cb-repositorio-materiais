@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* width: 100vw;
-  height: 100vh; */
+  min-height: calc(100% - 200px);
   display: flex;
   flex-direction: column;
 
@@ -33,8 +32,11 @@ export const Container = styled.div`
     color: #fff;
 
     h4 {
-      span {
-        font-size: 18px;
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin: 0 4px;
       }
     }
     a {

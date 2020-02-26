@@ -62,9 +62,7 @@ export const Container = styled.button`
     }
 
     p.nomeDisc {
-      transform: scale(1.25);
-      /* font-size: 14px;
-      font-weight: 500; */
+      font-weight: 600;
     }
   }
 `;

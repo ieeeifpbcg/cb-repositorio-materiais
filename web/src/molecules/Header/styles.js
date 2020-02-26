@@ -26,23 +26,14 @@ export const HeaderText = styled.div`
 
 export const SearchBox = styled.div`
   background: #fff;
-  height: 40px;
-
   display: flex;
   border-radius: 8px;
-
+  padding: 8px 12px;
   input {
-    width: 300px;
+    flex: 1;
     outline: none;
-    padding-left: 10px;
     border: none;
-    border-radius: 10px;
     font-size: 15px;
-  }
-
-  button {
-    background: #fff;
-    border: none;
-    border-radius: 8px;
+    background: none;
   }
 `;

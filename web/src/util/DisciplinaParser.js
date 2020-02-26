@@ -1,6 +1,6 @@
 module.exports = {
   parseName(name) {
-    const newName = name
+    return name
       .split('-')
       .map(s => {
         if (s.length > 2) {
@@ -9,6 +9,5 @@ module.exports = {
         return s;
       })
       .join(' ');
-    return newName;
   },
 };

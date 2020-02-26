@@ -1,15 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  text-align: center;
+  display: flex;
+  justify-content: center;
 
   button {
-    margin: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
+    width: 180px;
+    margin: 30px 12px;
+    padding: 8px 16px;
     border-radius: 4px;
     font-weight: bold;
     font-size: 18px;

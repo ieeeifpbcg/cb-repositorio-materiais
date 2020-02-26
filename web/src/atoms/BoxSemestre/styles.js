@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  user-select: none;
+  z-index: 1;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
