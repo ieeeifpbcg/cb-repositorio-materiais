@@ -17,9 +17,7 @@ function Layout({ title, children }) {
       <footer>
         <div>
           <h4>{'Collab Branch © 2020. Projeto feito com <3 baseado pelo '}</h4>
-          <a className="ufcg" href="https://opendevufcg.org">
-            OpenDevUFCG
-          </a>
+          <a href="https://opendevufcg.org"> OpenDevUFCG </a>
         </div>
         <div>
           <a href="https://github.com/ieeeifpbcg/">

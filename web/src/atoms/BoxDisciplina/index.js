@@ -8,8 +8,13 @@ import { Container } from './styles';
 
 export default function BoxDisciplina({ disciplina, bg }) {
   return (
-    <Container style={{ background: bg }}>
-      {parseName(disciplina.nome)}
+    <Container>
+      <button type="button" style={{ background: bg }}>
+        <p className="nomeDisc">{parseName(disciplina.nome)}</p>
+        <p className="cargaHoraria">{disciplina.ch}</p>
+        <p className="idDisc">{disciplina.id}</p>
+        <p className="preReq">{disciplina.pr}</p>
+      </button>
     </Container>
   );
 }

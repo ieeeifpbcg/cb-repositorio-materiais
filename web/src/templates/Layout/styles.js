@@ -7,30 +7,26 @@ export const Container = styled.div`
   flex-direction: column;
 
   footer {
+    position: relative;
     bottom: 0;
-    position: absolute;
-    width: 100vw;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 18px 0;
     background: #3fb59b;
     font-style: normal;
-
     div {
       display: flex;
       justify-content: center;
+      a {
+        margin-left: 5px;
+        font-weight: bold;
+        display: flex;
+      }
     }
 
-    .content:first-of-type {
-      padding-bottom: 10px;
-    }
-
-    a {
-      margin-left: 5px;
-      font-weight: bold;
-      display: flex;
-    }
-    .ufcg {
-      color: #3d3d3d;
+    div:first-of-type {
+      margin-bottom: 5px;
+      a {
+        color: #3d3d3d;
+      }
     }
   }
 `;

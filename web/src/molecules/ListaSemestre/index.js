@@ -12,7 +12,9 @@ export default function ListaSemestre({ disciplinas, number }) {
     <Container>
       <BoxSemestre number={number} />
       {disciplinas.map(element => {
-        return <BoxDisciplina id={element.id} disciplina={element} />;
+        return (
+          <BoxDisciplina id={element.id} disciplina={element} bg="#95C085" />
+        );
       })}
     </Container>
   );
