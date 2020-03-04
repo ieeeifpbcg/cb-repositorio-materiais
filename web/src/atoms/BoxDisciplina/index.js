@@ -4,16 +4,23 @@ import PropTypes from 'prop-types';
 
 import { parseName } from '~/util/DisciplinaParser';
 
-import { Wrapper, Container } from './styles';
+import {
+  Wrapper,
+  Container,
+  Nome,
+  CargaHoraria,
+  IdDisciplina,
+  PreReq,
+} from './styles';
 
 export default function BoxDisciplina({ disciplina, bg }) {
   return (
     <Wrapper>
       <Container type="button" style={{ background: bg }}>
-        <p className="nomeDisc">{parseName(disciplina.nome)}</p>
-        <p className="cargaHoraria">{disciplina.ch}</p>
-        <p className="idDisc">{disciplina.id}</p>
-        <p className="preReq">{disciplina.pr}</p>
+        <Nome>{parseName(disciplina.nome)}</Nome>
+        <CargaHoraria>{disciplina.ch}</CargaHoraria>
+        <IdDisciplina>{disciplina.id}</IdDisciplina>
+        <PreReq>{disciplina.pr}</PreReq>
       </Container>
     </Wrapper>
   );

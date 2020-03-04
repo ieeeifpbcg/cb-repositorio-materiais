@@ -54,15 +54,45 @@ export const Container = styled.button`
   }
 
   &:hover {
-    width: 160px;
-    height: 75px;
+    transform: scale(1.2, 1.2);
+    /* width: 160px;
+    height: 75px; */
 
-    p {
+    span {
       opacity: 1;
     }
 
-    p.nomeDisc {
+    h1.nomeDisc {
       font-weight: 600;
     }
   }
+`;
+
+export const Nome = styled.h1`
+  line-height: 18px;
+  font-size: 12px;
+  max-width: 120px;
+  align-self: center;
+  text-align: center;
+`;
+
+export const CargaHoraria = styled.span`
+  opacity: 0;
+  position: absolute;
+  bottom: 2px;
+  right: 4px;
+`;
+
+export const IdDisciplina = styled.span`
+  opacity: 0;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+`;
+
+export const PreReq = styled.span`
+  opacity: 0;
+  position: absolute;
+  top: 2px;
+  right: 4px;
 `;
