@@ -11,12 +11,14 @@ export default function MatrizCurricular({ matriz, semestres }) {
 
   useEffect(() => {
     // Cria uma matriz de arrays vazios para separar as diciplinas por semestre
+
     const newMatriz = Array.from(new Array(semestres), () => []);
     // Iterar sobre a matriz colocando cada disciplina em seu respectivo array
     matriz.forEach(disciplina => {
       const index = Number.parseInt(disciplina.id.charAt(0), 10) - 1;
       if (newMatriz[index]) newMatriz[index].push(disciplina);
     });
+
     setSemestresArray(newMatriz);
   }, [matriz, semestres]);
 
