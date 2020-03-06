@@ -339,7 +339,7 @@
     {
       "codigo": "001",
       "nome": "Estagio Supervisionado",
-      "slug": "estagio-supervisionado*",
+      "slug": "estagio-supervisionado",
       "carga_horaria": 400,
       "pre_requisito": 37,
       "ementa": ""

@@ -41,7 +41,7 @@ codigo,nome,slug,carga_horaria,pre_requisito,ementa
 065,Ética,etica,33,0,"Profissional de computação. Oito princípios de conduta ética e profissional do engenheiro de software. Propriedade intelectual e pirataria. Privacidade. Responsabilidade social. O que é ética; Código de ética da ACM e IEEE. Direitos autorais e estudos de casos sobre ética na computação. Ética na internet: liberdade de informação, privacidade e censura."
 066,Trabalho de Conclusão de Curso,trabalho-de-conclusao-de-curso,--,37,""
 067,Optativa II,optativa-ii,67,0,""
-001,Estagio Supervisionado,estagio-supervisionado*,400,37,""
+001,Estagio Supervisionado,estagio-supervisionado,400,37,""
 002,Análise e projetos de sistemas,analise-e-projeto-de-sistemas,67,24,""
 003,Banco de Dados,banco-de-dados,67,13,""
 004,Computação em Numvem,computacao-em-nuvem,67,0,""
