@@ -1,1 +1,0 @@
-#processamento-digital-de-imagem

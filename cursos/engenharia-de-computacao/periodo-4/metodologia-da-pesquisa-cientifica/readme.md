@@ -1,1 +1,0 @@
-#metodologia-da-pesquisa-cientifica

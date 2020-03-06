@@ -1,0 +1,430 @@
+{
+    "engenharia-de-computacao": [
+        {
+          "código": "011",
+          "nome": "pre-calculo",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "012",
+          "nome": "ingles-instrumental",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "013",
+          "nome": "introducao-a-engenharia-de-computacao",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "014",
+          "nome": "algoritmos-e-programacao",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "015",
+          "nome": "laboratorio-de-algoritmos-e-programacao",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "016",
+          "nome": "sistemas-digitais-i",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "017",
+          "nome": "medicao-eletro-eletronica",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "021",
+          "nome": "calculo-i",
+          "carga_horaria": "67",
+          "pre_requisito": "11"
+        },
+        {
+          "código": "022",
+          "nome": "estatistica-aplicada-a-computacao",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "023",
+          "nome": "leitura-e-producao-de-textos",
+          "carga_horaria": "-33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "024",
+          "nome": "estruturas-de-dados-e-algoritmos",
+          "carga_horaria": "67",
+          "pre_requisito": "14"
+        },
+        {
+          "código": "025",
+          "nome": "laboratorio-de-estrutura-de-dados-e-algoritmos",
+          "carga_horaria": "33",
+          "pre_requisito": "15"
+        },
+        {
+          "código": "026",
+          "nome": "sistemas-digitais-ii",
+          "carga_horaria": "67",
+          "pre_requisito": "16"
+        },
+        {
+          "código": "027",
+          "nome": "educacao-ambiental-e-sustentabilidade",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "031",
+          "nome": "calculo-ii",
+          "carga_horaria": "67",
+          "pre_requisito": "-21"
+        },
+        {
+          "código": "032",
+          "nome": "relacoes-humanas-no-trabalho",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "033",
+          "nome": "teoria-dos-grafos",
+          "carga_horaria": "67",
+          "pre_requisito": "24"
+        },
+        {
+          "código": "034",
+          "nome": "programacao-orientada-a-objetos",
+          "carga_horaria": "67",
+          "pre_requisito": "14"
+        },
+        {
+          "código": "035",
+          "nome": "laboratorio-de-programacao-orientada-a-objetos",
+          "carga_horaria": "67",
+          "pre_requisito": "15"
+        },
+        {
+          "código": "036",
+          "nome": "organizacao-e-arquitetura-de-computadores",
+          "carga_horaria": "67",
+          "pre_requisito": "26"
+        },
+        {
+          "código": "041",
+          "nome": "fisica-classica",
+          "carga_horaria": "67",
+          "pre_requisito": "21"
+        },
+        {
+          "código": "042",
+          "nome": "metodologia-da-pesquisa-cientifica",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "043",
+          "nome": "teoria-da-computacao",
+          "carga_horaria": "67",
+          "pre_requisito": "24"
+        },
+        {
+          "código": "044",
+          "nome": "sistemas-operacionais",
+          "carga_horaria": "67",
+          "pre_requisito": "24,36"
+        },
+        {
+          "código": "045",
+          "nome": "microprocessadores-e-microcontroladores",
+          "carga_horaria": "67",
+          "pre_requisito": "36"
+        },
+        {
+          "código": "051",
+          "nome": "algebra-linear-aplicada-a-computacao",
+          "carga_horaria": "67",
+          "pre_requisito": "31"
+        },
+        {
+          "código": "052",
+          "nome": "eletricidade-e-eletromagnetismo",
+          "carga_horaria": "67",
+          "pre_requisito": "31"
+        },
+        {
+          "código": "053",
+          "nome": "redes-de-computadores",
+          "carga_horaria": "67",
+          "pre_requisito": "24"
+        },
+        {
+          "código": "054",
+          "nome": "banco-de-dados",
+          "carga_horaria": "67",
+          "pre_requisito": "24"
+        },
+        {
+          "código": "055",
+          "nome": "projeto-de-sistemas-digitais",
+          "carga_horaria": "67",
+          "pre_requisito": "36,44"
+        },
+        {
+          "código": "061",
+          "nome": "metodos-numericos",
+          "carga_horaria": "67",
+          "pre_requisito": "51-"
+        },
+        {
+          "código": "062",
+          "nome": "inteligencia-artificial",
+          "carga_horaria": "67",
+          "pre_requisito": "43"
+        },
+        {
+          "código": "063",
+          "nome": "padroes-de-projetos",
+          "carga_horaria": "67",
+          "pre_requisito": "34,35"
+        },
+        {
+          "código": "064",
+          "nome": "sinais-e-sistemas",
+          "carga_horaria": "67",
+          "pre_requisito": "31"
+        },
+        {
+          "código": "065",
+          "nome": "verificacao-funcional-de-sistemas-digitais",
+          "carga_horaria": "67",
+          "pre_requisito": "55"
+        },
+        {
+          "código": "071",
+          "nome": "libras",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "072",
+          "nome": "analise-e-tecnicas-de-algoritmos",
+          "carga_horaria": "67",
+          "pre_requisito": "24"
+        },
+        {
+          "código": "073",
+          "nome": "analise-e-projetos-de-sistemas",
+          "carga_horaria": "67",
+          "pre_requisito": "63"
+        },
+        {
+          "código": "074",
+          "nome": "desenho-assistido-por-computador",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "075",
+          "nome": "circuitos-eletro-eletronicos",
+          "carga_horaria": "100",
+          "pre_requisito": "52,64"
+        },
+        {
+          "código": "081",
+          "nome": "teste-de-software",
+          "carga_horaria": "67",
+          "pre_requisito": "34,35,54"
+        },
+        {
+          "código": "082",
+          "nome": "gerencia-de-projetos",
+          "carga_horaria": "67",
+          "pre_requisito": "73"
+        },
+        {
+          "código": "083",
+          "nome": "tecnicas-de-prototipagem",
+          "carga_horaria": "67",
+          "pre_requisito": "74"
+        },
+        {
+          "código": "084",
+          "nome": "processamento-digital-de-sinais",
+          "carga_horaria": "67",
+          "pre_requisito": "61,64"
+        },
+        {
+          "código": "085",
+          "nome": "sensores-e-atuadores",
+          "carga_horaria": "67",
+          "pre_requisito": "75"
+        },
+        {
+          "código": "091",
+          "nome": "empreendedorismo-de-base-tecnologica",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "092",
+          "nome": "projeto-em-engenharia-de-computacao-i",
+          "carga_horaria": "67",
+          "pre_requisito": "83"
+        },
+        {
+          "código": "093",
+          "nome": "sistemas-embarcados",
+          "carga_horaria": "67",
+          "pre_requisito": "44,45"
+        },
+        {
+          "código": "094",
+          "nome": "controle-e-automacao-i",
+          "carga_horaria": "67",
+          "pre_requisito": "61,75"
+        },
+        {
+          "código": "101",
+          "nome": "educacao-em-direitos-humanos",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "102",
+          "nome": "educacao-em-diversidade",
+          "carga_horaria": "33",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "103",
+          "nome": "projeto-em-engenharia-de-computacao-ii",
+          "carga_horaria": "67",
+          "pre_requisito": "92"
+        },
+        {
+          "código": "001",
+          "nome": "desenvolvimento-de-sistemas-para-web",
+          "carga_horaria": "67",
+          "pre_requisito": "54,63"
+        },
+        {
+          "código": "002",
+          "nome": "teoria-da-informacao-e-codificacao",
+          "carga_horaria": "67",
+          "pre_requisito": "31,-43,64"
+        },
+        {
+          "código": "003",
+          "nome": "mineracao-de-dados",
+          "carga_horaria": "67",
+          "pre_requisito": "22,54,62"
+        },
+        {
+          "código": "004",
+          "nome": "inteligencia-de-negocio",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "005",
+          "nome": "seguranca-da-informacao",
+          "carga_horaria": "67",
+          "pre_requisito": "44,53"
+        },
+        {
+          "código": "006",
+          "nome": "algebra-vetorial-e-geometria-analitica",
+          "carga_horaria": "67",
+          "pre_requisito": "11"
+        },
+        {
+          "código": "007",
+          "nome": "calculo-iii",
+          "carga_horaria": "67",
+          "pre_requisito": "31"
+        },
+        {
+          "código": "008",
+          "nome": "computacao-pervasiva",
+          "carga_horaria": "67",
+          "pre_requisito": "53,93"
+        },
+        {
+          "código": "009",
+          "nome": "desenvolvimento-para-dispositivos-moveis",
+          "carga_horaria": "67",
+          "pre_requisito": "54,63"
+        },
+        {
+          "código": "010",
+          "nome": "sistemas-multiagente",
+          "carga_horaria": "67",
+          "pre_requisito": "62"
+        },
+        {
+          "código": "011",
+          "nome": "compiladores",
+          "carga_horaria": "67",
+          "pre_requisito": "43"
+        },
+        {
+          "código": "012",
+          "nome": "internet-das-coisas",
+          "carga_horaria": "67",
+          "pre_requisito": "53"
+        },
+        {
+          "código": "013",
+          "nome": "processamento-digital-de-imagem",
+          "carga_horaria": "67",
+          "pre_requisito": "24,84"
+        },
+        {
+          "código": "014",
+          "nome": "robotica",
+          "carga_horaria": "67",
+          "pre_requisito": "62,94"
+        },
+        {
+          "código": "015",
+          "nome": "inovacao-tecnologica",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "016",
+          "nome": "controle-e-automacao-ii",
+          "carga_horaria": "67",
+          "pre_requisito": "94"
+        },
+        {
+          "código": "017",
+          "nome": "coprojeto-de-hardware-e-software",
+          "carga_horaria": "67",
+          "pre_requisito": "45,65"
+        },
+        {
+          "código": "018",
+          "nome": "topicos-especiais-em-engenharia-de-computacao-i",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        },
+        {
+          "código": "019",
+          "nome": "topicos-especiais-em-engenharia-de-computacao-ii",
+          "carga_horaria": "67",
+          "pre_requisito": "0"
+        }
+      ]
+}

@@ -1,1 +1,0 @@
-#inteligencia-de-negocio

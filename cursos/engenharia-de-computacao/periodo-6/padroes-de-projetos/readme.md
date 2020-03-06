@@ -1,1 +1,0 @@
-#padroes-de-projetos

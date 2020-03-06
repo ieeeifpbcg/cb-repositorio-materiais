@@ -1,1 +1,0 @@
-#inteligencia-artificial
