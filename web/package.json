@@ -80,10 +80,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./web/node_modules/cz-conventional-changelog"
-    }
   }
 }
