@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import SEO from '~/atoms/Seo';
 
-import { Container } from './styles';
+import { Container, AboutText, GitHubLink } from './styles';
 import GlobalStyle from '~/styles/global';
 
 function Layout({ title, children }) {
@@ -15,19 +15,19 @@ function Layout({ title, children }) {
       <SEO title={title} />
       <main> {children} </main>
       <footer>
-        <div className="opendev">
+        <AboutText>
           <h4>
             Collab Branch © 2020. Projeto feito com{' '}
             <FaHeart color="#D2575B" size="16px" /> baseado pelo
           </h4>
           <a href="https://opendevufcg.org"> OpenDevUFCG </a>
-        </div>
-        <div className="gitlink">
+        </AboutText>
+        <GitHubLink>
           <a href="https://github.com/ieeeifpbcg/">
             <FaGithub size="30px" />
             GitHub
           </a>
-        </div>
+        </GitHubLink>
       </footer>
     </Container>
   );

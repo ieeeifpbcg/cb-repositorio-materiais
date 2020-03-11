@@ -8,10 +8,8 @@ export const Container = styled.div`
   footer {
     position: relative;
     height: 100px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 18px 0;
+
+    padding-top: 18px;
     background: #3fb59b;
     font-style: normal;
     div {
@@ -26,44 +24,50 @@ export const Container = styled.div`
   }
 
   .opendev {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-
-    h4 {
-      display: flex;
-      align-items: center;
-
-      svg {
-        margin: 0 4px;
-      }
-    }
-    a {
-      transition: all 0.2s;
-      &:hover {
-        color: #3d3d3d;
-      }
-    }
   }
 
   .gitlink {
-    margin-top: 8px;
-    a {
-      align-self: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  }
+`;
 
-      transition: all 0.2s;
+export const AboutText = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 
-      svg {
-        margin-right: 8px;
-      }
-      &:hover {
-        color: #3d3d3d;
-        fill: #3d3d3d;
-      }
+  h4 {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin: 0 4px;
+    }
+  }
+  a {
+    transition: all 0.2s;
+    &:hover {
+      color: #3d3d3d;
+    }
+  }
+`;
+
+export const GitHubLink = styled.div`
+  margin-top: 8px;
+  a {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.2s;
+
+    svg {
+      margin-right: 8px;
+    }
+    &:hover {
+      color: #3d3d3d;
+      fill: #3d3d3d;
     }
   }
 `;
