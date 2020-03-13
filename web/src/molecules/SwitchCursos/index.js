@@ -1,10 +1,14 @@
 import React from 'react';
 
 import { Container } from './styles';
+import { theme } from '~/styles/theme';
 
 const SwitchCursos = () => (
   <Container>
-    <button type="button" style={{ background: '#3D3D3D', opacity: 0.5 }}>
+    <button
+      type="button"
+      style={{ background: theme.primary.active, opacity: 0.5 }}
+    >
       Eng. da Comp.
     </button>
     <button type="button" style={{ background: '#3FB59B', opacity: 1 }}>

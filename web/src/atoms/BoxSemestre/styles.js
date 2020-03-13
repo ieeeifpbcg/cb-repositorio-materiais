@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { theme } from '~/styles/theme';
+
 export const Container = styled.div`
   user-select: none;
   z-index: 1;
@@ -14,7 +16,7 @@ export const Container = styled.div`
   width: 150px;
   height: 50px;
 
-  color: #3d3d3d;
+  color: ${theme.primary.active};
   font-weight: bold;
   font-size: 15px;
   line-height: 27px;

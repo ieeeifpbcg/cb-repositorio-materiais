@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { theme } from '~/styles/theme';
+
 export const Container = styled.div`
   min-height: calc(100% - 200px);
   display: flex;
@@ -47,7 +49,7 @@ export const AboutText = styled.div`
   a {
     transition: all 0.2s;
     &:hover {
-      color: #3d3d3d;
+      color: ${theme.primary.active};
     }
   }
 `;
@@ -66,8 +68,8 @@ export const GitHubLink = styled.div`
       margin-right: 8px;
     }
     &:hover {
-      color: #3d3d3d;
-      fill: #3d3d3d;
+      color: ${theme.primary.active};
+      fill: ${theme.primary.active};
     }
   }
 `;
