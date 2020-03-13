@@ -14,12 +14,16 @@ export const Container = styled.button`
   display: flex;
   justify-content: center;
   position: relative;
+
   color: #fff;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   width: 150px;
   height: 65px;
-  font-size: 12px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
 
   transition: all 0.2s;
 
@@ -63,7 +67,7 @@ export const Container = styled.button`
     }
 
     h1.nomeDisc {
-      font-weight: 600;
+      font-weight: bold;
     }
   }
 `;

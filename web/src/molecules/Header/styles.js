@@ -18,7 +18,7 @@ export const Container = styled.header`
 
 export const HeaderText = styled.div`
   h2 {
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: normal;
   }
@@ -33,7 +33,7 @@ export const SearchBox = styled.div`
     flex: 1;
     outline: none;
     border: none;
-    font-size: 15px;
+    font-size: 24px;
     background: none;
   }
 `;

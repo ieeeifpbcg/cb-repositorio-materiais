@@ -13,7 +13,7 @@ function Header() {
         </HeaderText>
 
         <SearchBox>
-          <input placeholder="Ex: Programação 1" />
+          <input placeholder="Pesquise..." />
           <FiSearch size="30px" color="#3FB59B" />
         </SearchBox>
       </Wrapper>

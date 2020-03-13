@@ -17,8 +17,10 @@ export const Container = styled.div`
   height: 50px;
 
   color: ${theme.primary.active};
+
+  font-size: 18px;
+  font-style: normal;
   font-weight: bold;
-  font-size: 15px;
   line-height: 27px;
 
   margin-bottom: 8px;

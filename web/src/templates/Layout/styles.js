@@ -9,11 +9,13 @@ export const Container = styled.div`
 
   footer {
     position: relative;
-    height: 100px;
-
-    padding-top: 18px;
+    /* height: 100px; */
+    padding: 24px 0;
+    /* padding-top: 18px; */
     background: #3fb59b;
     font-style: normal;
+    font-size: 14px;
+
     div {
       display: flex;
       justify-content: center;
@@ -23,12 +25,6 @@ export const Container = styled.div`
         display: flex;
       }
     }
-  }
-
-  .opendev {
-  }
-
-  .gitlink {
   }
 `;
 
