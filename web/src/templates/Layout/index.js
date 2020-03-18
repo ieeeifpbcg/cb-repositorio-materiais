@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 
 import SEO from '~/atoms/Seo';
 
+import Footer from '~/molecules/Footer';
+import Header from '~/molecules/Header';
+
 import { Container } from './styles';
 import GlobalStyle from '~/styles/global';
 
@@ -12,7 +15,9 @@ function Layout({ title, children }) {
     <Container>
       <GlobalStyle />
       <SEO title={title} />
+      <Header />
       <main>{children}</main>
+      <Footer />
     </Container>
   );
 }
