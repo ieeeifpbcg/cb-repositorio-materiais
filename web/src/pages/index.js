@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Footer from '~/molecules/Footer';
 import Header from '~/molecules/Header';
 import SwitchCursos from '~/molecules/SwitchCursos';
 
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Header />
     <SwitchCursos />
     <MatrizCurricular matriz={matriz} semestres={6} />
+    <Footer />
   </Layout>
 );
 

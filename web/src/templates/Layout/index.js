@@ -1,11 +1,10 @@
 import React from 'react';
-import { FaGithub, FaHeart } from 'react-icons/fa';
 
 import PropTypes from 'prop-types';
 
 import SEO from '~/atoms/Seo';
 
-import { Container, AboutText, GitHubLink } from './styles';
+import { Container } from './styles';
 import GlobalStyle from '~/styles/global';
 
 function Layout({ title, children }) {
@@ -13,22 +12,7 @@ function Layout({ title, children }) {
     <Container>
       <GlobalStyle />
       <SEO title={title} />
-      <main> {children} </main>
-      <footer>
-        <AboutText>
-          <h4>
-            Collab Branch © 2020. Projeto feito com{' '}
-            <FaHeart color="#D2575B" size="16px" /> baseado pelo
-          </h4>
-          <a href="https://opendevufcg.org"> OpenDevUFCG </a>
-        </AboutText>
-        <GitHubLink>
-          <a href="https://github.com/ieeeifpbcg/">
-            <FaGithub size="30px" />
-            GitHub
-          </a>
-        </GitHubLink>
-      </footer>
+      <main>{children}</main>
     </Container>
   );
 }
