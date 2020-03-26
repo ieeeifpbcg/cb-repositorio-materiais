@@ -3,15 +3,19 @@ import styled from 'styled-components';
 export const Wrapper = styled.li`
   width: 174px;
   height: 89px;
-
   display: flex;
 
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 400px) {
+    width: calc(100% - 64px);
+  }
 `;
 
 export const Container = styled.button`
   display: flex;
+  margin: 0;
   justify-content: center;
   position: relative;
 
@@ -20,17 +24,13 @@ export const Container = styled.button`
   border-radius: 4px;
   width: 150px;
   height: 65px;
-
-  font-size: 14px;
   font-style: normal;
   font-weight: normal;
 
   transition: all 0.2s;
 
   p.nomeDisc {
-    line-height: 18px;
-    font-size: 12px;
-
+    line-height: 1.8rem;
     max-width: 120px;
     align-self: center;
     text-align: center;
@@ -70,17 +70,23 @@ export const Container = styled.button`
       font-weight: bold;
     }
   }
+
+  @media (max-width: 400px) {
+    width: calc(100% - 24px);
+    margin: auto;
+  }
 `;
 
 export const Nome = styled.h1`
-  line-height: 18px;
-  font-size: 12px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
   max-width: 120px;
   align-self: center;
   text-align: center;
 `;
 
 export const CargaHoraria = styled.span`
+  font-size: 1.2rem;
   opacity: 0;
   position: absolute;
   bottom: 2px;
@@ -88,6 +94,7 @@ export const CargaHoraria = styled.span`
 `;
 
 export const IdDisciplina = styled.span`
+  font-size: 1.2rem;
   opacity: 0;
   position: absolute;
   top: 2px;
@@ -95,6 +102,7 @@ export const IdDisciplina = styled.span`
 `;
 
 export const PreReq = styled.span`
+  font-size: 1.2rem;
   opacity: 0;
   position: absolute;
   top: 2px;

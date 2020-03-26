@@ -1,24 +1,23 @@
 import React from 'react';
 import { FaGithub, FaHeart } from 'react-icons/fa';
 
-import { Container, AboutText, GitHubLink } from './styles';
+import { Wrapper, Container, GitHubLink } from './styles';
 
 export default function Footer() {
   return (
-    <Container>
-      <AboutText>
-        <h4>
-          Collab Branch © 2020. Projeto feito com{' '}
-          <FaHeart color="#D2575B" size="16px" /> baseado pelo
-        </h4>
+    <Wrapper>
+      <Container>
+        <strong>Collab Branch © 2020. Projeto feito com </strong>
+        <FaHeart color="#D2575B" size="16px" />
+        <strong> baseado pelo</strong>
         <a href="https://opendevufcg.org"> OpenDevUFCG </a>
-      </AboutText>
-      <GitHubLink>
-        <a href="https://github.com/ieeeifpbcg/">
-          <FaGithub size="30px" />
-          GitHub
-        </a>
-      </GitHubLink>
-    </Container>
+        <GitHubLink>
+          <a href="https://github.com/ieeeifpbcg/">
+            <FaGithub size="30px" />
+            GitHub
+          </a>
+        </GitHubLink>
+      </Container>
+    </Wrapper>
   );
 }

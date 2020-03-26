@@ -2,31 +2,22 @@ import styled from 'styled-components';
 
 import { theme } from '~/styles/theme';
 
-export const Container = styled.footer`
+export const Wrapper = styled.footer`
   position: relative;
-  /* height: 100px; */
   padding: 24px 0;
-  /* padding-top: 18px; */
   background: #3fb59b;
   font-style: normal;
-  font-size: 14px;
+  font-size: 1.4rem;
 
-  div {
-    display: flex;
-    justify-content: center;
-    a {
-      margin-left: 5px;
-      font-weight: bold;
-      display: flex;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
-export const AboutText = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
+export const Container = styled.span`
+  text-align: center;
 
+  color: #fff;
   h4 {
     display: flex;
     align-items: center;
@@ -35,16 +26,24 @@ export const AboutText = styled.div`
       margin: 0 4px;
     }
   }
+
   a {
+    font-weight: bold;
+
     transition: all 0.2s;
     &:hover {
       color: ${theme.primary.active};
     }
   }
+
+  & > svg {
+    margin-bottom: -3px;
+  }
 `;
 
 export const GitHubLink = styled.div`
   margin-top: 8px;
+
   a {
     align-self: center;
     display: flex;

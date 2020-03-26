@@ -21,8 +21,6 @@ export default createGlobalStyle`
   }
 
   html, body {
-    font-size: 16px;
-
     background-color: ${theme.primary.bg};
     color: ${theme.primary.text};
 
@@ -33,6 +31,7 @@ export default createGlobalStyle`
 
   html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
   }
 
   a,

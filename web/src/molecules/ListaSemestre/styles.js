@@ -5,6 +5,20 @@ export const Container = styled.ol`
   flex-direction: column;
   align-items: center;
   position: relative;
+
+  @media (max-width: 400px) {
+    & > li {
+      display: ${props => (props.isExpanded ? 'block' : 'none')};
+    }
+
+    & > li {
+      margin-top: 16px;
+    }
+
+    & > li + li {
+      margin-top: 0;
+    }
+  }
 `;
 
 export const Bar = styled.div`

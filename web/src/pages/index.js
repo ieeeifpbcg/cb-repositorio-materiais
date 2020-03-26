@@ -11,7 +11,7 @@ import matriz from '~/assets/matriz_acentuada.json';
 const IndexPage = () => (
   <Layout title="Home">
     <SwitchCursos />
-    <MatrizCurricular matriz={matriz} semestres={6} />
+    <MatrizCurricular matriz={matriz} />
   </Layout>
 );
 

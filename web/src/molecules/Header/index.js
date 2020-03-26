@@ -1,20 +1,31 @@
-import React from 'react';
-import { FiSearch } from 'react-icons/fi';
+import React, { useState, useCallback } from 'react';
+import { FiSearch, FiX } from 'react-icons/fi';
 
 import { Container, Wrapper, HeaderText, SearchBox } from './styles';
 
 function Header() {
+  const [inputOpen, setInputOpen] = useState(false);
+
+  const toggleInput = useCallback(() => {
+    setInputOpen(oldInput => !oldInput);
+  }, []);
+
   return (
     <Container>
       <Wrapper>
-        <HeaderText>
-          <h2>Collab Branch</h2>
-          <h2>Repositório de Materiais</h2>
+        <HeaderText isVisible={!inputOpen}>
+          Collab Branch
+          <br />
+          Repositório de Materiais
         </HeaderText>
 
-        <SearchBox>
-          <input placeholder="Pesquise..." />
-          <FiSearch size="30px" color="#3FB59B" />
+        <SearchBox isOpen={inputOpen}>
+          <input placeholder="Pesquise..." size={1} />
+          {inputOpen ? (
+            <FiX size={30} onClick={toggleInput} />
+          ) : (
+            <FiSearch size={30} onClick={toggleInput} />
+          )}
         </SearchBox>
       </Wrapper>
     </Container>
