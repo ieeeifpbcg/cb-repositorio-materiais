@@ -4,10 +4,13 @@ import { theme } from '~/styles/theme';
 
 export const Wrapper = styled.footer`
   position: relative;
-  padding: 24px 0;
   background: #3fb59b;
+
   font-style: normal;
   font-size: 1.4rem;
+
+  padding: 24px 0;
+  margin-top: auto;
 
   display: flex;
   flex-direction: column;
