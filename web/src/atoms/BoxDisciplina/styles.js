@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.li`
-  width: 174px;
-  height: 89px;
+  width: 199px;
+  height: 104px;
   display: flex;
 
   align-items: center;
@@ -22,8 +22,8 @@ export const Container = styled.button`
   color: #fff;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  width: 160px;
-  height: 75px;
+  width: 165px;
+  height: 80px;
   font-style: normal;
   font-weight: normal;
 
@@ -37,10 +37,6 @@ export const Container = styled.button`
     span {
       opacity: 1;
     }
-
-    h1.nomeDisc {
-      font-weight: bold;
-    }
   }
 
   @media (max-width: 400px) {
@@ -52,7 +48,7 @@ export const Container = styled.button`
 export const Nome = styled.h1`
   line-height: 1.8rem;
   font-size: 1.4rem;
-  max-width: 120px;
+  max-width: 135px;
   align-self: center;
   text-align: center;
 `;
