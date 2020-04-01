@@ -22,40 +22,12 @@ export const Container = styled.button`
   color: #fff;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  width: 150px;
-  height: 65px;
+  width: 160px;
+  height: 75px;
   font-style: normal;
   font-weight: normal;
 
   transition: all 0.2s;
-
-  p.nomeDisc {
-    line-height: 1.8rem;
-    max-width: 120px;
-    align-self: center;
-    text-align: center;
-  }
-
-  p.idDisc {
-    opacity: 0;
-    position: absolute;
-    top: 2px;
-    left: 4px;
-  }
-
-  p.cargaHoraria {
-    opacity: 0;
-    position: absolute;
-    bottom: 2px;
-    right: 4px;
-  }
-
-  p.preReq {
-    opacity: 0;
-    position: absolute;
-    top: 2px;
-    right: 4px;
-  }
 
   &:hover {
     transform: scale(1.2, 1.2);

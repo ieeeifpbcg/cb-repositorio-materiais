@@ -2,8 +2,6 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
-import { parseName } from '~/util/DisciplinaParser';
-
 import {
   Wrapper,
   Container,
@@ -17,10 +15,10 @@ export default function BoxDisciplina({ disciplina, bg }) {
   return (
     <Wrapper>
       <Container type="button" style={{ background: bg }}>
-        <Nome>{parseName(disciplina.nome)}</Nome>
-        <CargaHoraria>{disciplina.ch}</CargaHoraria>
-        <IdDisciplina>{disciplina.id}</IdDisciplina>
-        <PreReq>{disciplina.pr}</PreReq>
+        <Nome>{disciplina.nome}</Nome>
+        <CargaHoraria>{disciplina.carga_horaria}</CargaHoraria>
+        <IdDisciplina>{disciplina.codigo}</IdDisciplina>
+        <PreReq>{disciplina.pre_requisito}</PreReq>
       </Container>
     </Wrapper>
   );
@@ -28,10 +26,10 @@ export default function BoxDisciplina({ disciplina, bg }) {
 
 BoxDisciplina.propTypes = {
   disciplina: PropTypes.shape({
-    id: PropTypes.string,
+    codigo: PropTypes.string,
     nome: PropTypes.string.isRequired,
-    ch: PropTypes.string.isRequired,
-    pr: PropTypes.string.isRequired,
+    carga_horaria: PropTypes.string.isRequired,
+    pre_requisito: PropTypes.string.isRequired,
   }).isRequired,
 
   bg: PropTypes.string.isRequired,
