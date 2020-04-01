@@ -1,0 +1,412 @@
+{
+  "telematica": [
+    {
+      "codigo": "011",
+      "nome": "Introdução à Telemática",
+      "slug": "introducao-a-telematica",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "Estrutura e objetivos de um Curso Superior de Tecnologia. Perfil profissional e campo de atuação do Tecnólogo em Telemática. Estrutura e objetivos do curso de Tecnologia em Telemática. Regulamentação profissional. Histórico e evolução dos sistemas computacionais e da Tecnologia da Informação. Características básicas dos computadores: hardware e software. Sistemas de numeração."
+    },
+    {
+      "codigo": "012",
+      "nome": "Fundamentos de Eletricidade",
+      "slug": "fundamentos-de-eletricidade",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": "Fundamentos de eletricidade. Resistor, capacitor e indutor. Análise de circuitos de corrente contínua. Relações entre tensões e correntes alternadas nos elementos passivos. Potência e energia elétrica em corrente alternada. Medidas de tensão e corrente usando multímetro."
+    },
+    {
+      "codigo": "013",
+      "nome": "Programação I",
+      "slug": "programacao-i",
+      "carga_horaria": 100,
+      "pre_requisito": 0,
+      "ementa": "Análise e resolução de problemas utilizando algoritmos. Diferenciação entre linguagem de programação e linguagem algorítmica. Operações com entrada e saída de dados. Tipos de dados, variáveis e constantes. Comando de atribuição, estruturas de decisão e repetição, operações com vetores e matrizes, manipulação de strings, subprogramas (funções), passagem de parâmetros. Criação e Leitura de Arquivos em disco. Implementação de programas usando uma linguagem de programação."
+    },
+    {
+      "codigo": "014",
+      "nome": "Laboratório de Sistemas Abertos",
+      "slug": "laboratorio-de-sistemas-abertos",
+      "carga_horaria": "067",
+      "pre_requisito": 0,
+      "ementa": "Introdução ao sistema operacional Linux. Instalação de SO Linux e Administração de Pacotes. Arquitetura do Sistema (inicialização, níveis de execução e desligamento). Comandos Básicos GNU/Linux e Unix. Permissões. Gerenciamento de Dispositivos (udev), Sistemas de Arquivos Linux e padrão FHS. Identificar e editar configurações de hardware. Interfaces do usuário e desktop. Gerenciadores de boot. Administração de contas de usuários e grupos. Gerenciamento de Processos Linux. Utilização de ambientes gráficos no Linux."
+    },
+    {
+      "codigo": "015",
+      "nome": "Inglês Instrumental",
+      "slug": "ingles-instrumental",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "Conscientização do processo de leitura. Reconhecimento e familiarização com gêneros textuais da esfera acadêmica e profissional. Estratégias de leitura. Processos de Inferência. Uso do dicionário. Grupo nominal. Referência. Grupos verbais e estrutura da sentença. Marcadores do Discurso."
+    },
+    {
+      "codigo": "016",
+      "nome": "Pré-Cálculo",
+      "slug": "pre-calculo",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": "Conjuntos Numéricos. Funções. Gráficos de Funções."
+    },
+    {
+      "codigo": "017",
+      "nome": "Língua Portuguesa",
+      "slug": "lingua-portuguesa",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "Língua falada e escrita. Níveis de linguagem. Habilidades básicas de leitura e produção de texto. Habilidades básicas de produção textual. Gêneros e tipos textuais. Noções linguístico-gramaticais aplicadas ao texto."
+    },
+    {
+      "codigo": "021",
+      "nome": "Redes de Computadores",
+      "slug": "redes-de-computadores",
+      "carga_horaria": 67,
+      "pre_requisito": 11,
+      "ementa": "Introdução a Redes de Computadores; Sistemas Operacionais de Redes; Camada Física; Camada de Enlace; Camada de Rede; Endereçamento IP (v4 e v6); Sub-redes e VLSM; Camada de Transporte; Camada de Aplicação; Acesso Remoto Seguro e Configuração Básica de Switches e Roteadores; Introdução ao Wireshark; Introdução ao Cisco Packet Tracer; Introdução ao GNS3; Introdução ao TCPDUMP; Ferramentas de Diagnóstico de Rede; Métricas de Desempenho de Rede."
+    },
+    {
+      "codigo": "022",
+      "nome": "Eletrônica Para Telecomunicações",
+      "slug": "eletronica-para-telecomunicacoes",
+      "carga_horaria": 67,
+      "pre_requisito": 12,
+      "ementa": "Introdução a Dispositivos Semicondutores. Introdução a Amplificadores Operacionais. Osciladores. Osciladores Controlados por Tensão. Filtros. Circuitos de Operações com Sinais Analógicos. Circuitos Temporizadores. Circuitos Comparadores."
+    },
+    {
+      "codigo": "023",
+      "nome": "Medição Eletroeletronica",
+      "slug": "medicao-eletroeletronica",
+      "carga_horaria": 33,
+      "pre_requisito": 12,
+      "ementa": "Fundamentos de Medidas Elétricas; Geradores de Sinais; Osciloscópios Análogico e Digital; Analisador de Espectro; Instrumentos Utilizados em Telecomunicações;"
+    },
+    {
+      "codigo": "024",
+      "nome": "Programação II",
+      "slug": "programacao-ii",
+      "carga_horaria": 67,
+      "pre_requisito": 13,
+      "ementa": "Tipos de dados. Recursividade. Introdução a estruturas de dados: listas, pilhas, filas e árvores. Algoritmos de pesquisa e classificação interna de dados. Introdução a classes e objetos. Testes de software."
+    },
+    {
+      "codigo": "025",
+      "nome": "Arquitetura de Computadores",
+      "slug": "arquitetura-de-computadores",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": "Estrutura básica de computadores. A Unidade Central de Processamento. Estruturas de barramentos. Organização da memória. Sistemas de entrada/saída. Modos de endereçamento. Conjunto de instruções. Padrões de arquiteturas. Ferramentas para simulação de arquitetura de computadores."
+    },
+    {
+      "codigo": "026",
+      "nome": "Cálculo Diferencial e Integral",
+      "slug": "calculo-diferencial-e-integral",
+      "carga_horaria": 67,
+      "pre_requisito": 16,
+      "ementa": "Limites e Continuidade de funções. Derivadas e Aplicações. Introdução à Integração. Teorema Fundamental do Cálculo. Métodos de Integração (substituição e por partes). Aplicação de Integral. Sequências e Séries Numéricas."
+    },
+    {
+      "codigo": "027",
+      "nome": "Educação em Diversidade",
+      "slug": "educacao-em-diversidade",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "Diversidades. O conceito de Identidade. A concepção de Igualdade e Diferença. Gênero, violência e poder. Sexualidade e Orientação sexual. Relações Étnico-raciais. Políticas afirmativas em Educação. Pessoas com Deficiência. Implicações ao contexto educativo."
+    },
+    {
+      "codigo": "031",
+      "nome": "Tecnologias de Redes Locais",
+      "slug": "tecnologias-de-redes-locais",
+      "carga_horaria": 67,
+      "pre_requisito": 21,
+      "ementa": "Introdução à Comutação Local de Redes; Funcionamento Básico de Switches Camada 2 (L2); LANs Virtuais (VLANs); Protocolos de Gerenciamento de VLANs; Segurança de Interfaces em Switches L2; STP; RSTP; MSTP; Roteamento entre VLANs; IEEE 802.1x e Radius; Switches L3 e Funcionalidades; Arquiteturas de Alta Disponibilidade (L2 e L3); Padroes de Redes sem Fio Locais."
+    },
+    {
+      "codigo": "032",
+      "nome": "Estatística Aplicada a Telemática",
+      "slug": "estatistica-aplicada-a-telematica",
+      "carga_horaria": 67,
+      "pre_requisito": 26,
+      "ementa": "Fundamentos de probabilidade. Probabilidade condicional. Variavéis Aleatórias Discretas e Contínuas. Distribuições de Probabilidade Discretas e Contínuas. Distribuição Gaussiana e soma de variáveis aleatórias. Funções de variáveis aleatórias. Pré-processamento de grandes volumes de dados: métodos de leitura e escrita, métodos de formatação, operações de agrupamento e agregação e operações de portabilidade de dados. Análise exploratória de dados. Distribuições de Amostragem. Estimação. Intervalos de confiança. Teste de hipóteses. Teste de aderência de distribuições. Regressão Linear e Correlação. Introdução ao Planejamento de Experimentos."
+    },
+    {
+      "codigo": "033",
+      "nome": "Sinais e Sistemas",
+      "slug": "sinais-e-sistemas",
+      "carga_horaria": 67,
+      "pre_requisito": 22,
+      "ementa": "Sinais e Sistemas. Sistemas Lineares invariantes no tempo. Representação de sinais periódicos em série de Fourier. Transformada de Fourier no tempo contínuo. Caracterização no tempo e na frequência de sistemas lineares invariantes no tempo. Fundamentos de filtragem. Amostragem. Quantização."
+    },
+    {
+      "codigo": "034",
+      "nome": "Administração de Sistemas",
+      "slug": "administracao-de-sistemas",
+      "carga_horaria": 67,
+      "pre_requisito": 14,
+      "ementa": "Shell Script. Automatização e agendamento de tarefas administrativas de sistema. Administração de cotas de disco. Serviços essenciais do sistema (manutenção de data e hora, servidor NTP, arquivos de log, impressão). Administração avançada de dispositivos de armazenamento (RAID e LVM). Manutenção do Sistema. Configuração básica de rede e de cliente DNS. Administração de dados SQL. Planejamento de capacidade (monitorar recursos de rede e hardware, prever necessidade futura de recursos."
+    },
+    {
+      "codigo": "035",
+      "nome": "Sistemas Operacionais",
+      "slug": "sistemas-operacionais",
+      "carga_horaria": 67,
+      "pre_requisito": 25,
+      "ementa": "Conceitos básicos. Concorrência. Estrutura do sistema operacional. Processos e threads. Gerência do processador. Gerência de memória. Sistemas de arquivos."
+    },
+    {
+      "codigo": "036",
+      "nome": "Programação III",
+      "slug": "programacao-iii",
+      "carga_horaria": 67,
+      "pre_requisito": 21,
+      "ementa": "Programação concorrente. Programação de aplicações cliente/servidor. Invocação de métodos remotos. Serviços Web. Fundamentos de programação para Web."
+    },
+    {
+      "codigo": "037",
+      "nome": "Metodologia da Pesquisa Científica",
+      "slug": "metodologia-da-pesquisa-cientifica",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "A disciplina de Metodologia da pesquisa Científica abordará os fundamentos epistemológicos e operacionais da pesquisa, enfatizando os conhecimentos necessários ao exercício da prática de iniciação científica e as opções metodológicas para o seu planejamento, desenvolvimento, análise e apresentação dos resultados de uma investigação. De forma oportuna, os alunos serão conduzidos a desenvolverem uma reflexão crítica sobre a construção do conhecimento humano, em uma perspectiva sócio histórica de análise, nos diferentes momentos históricos. Neste processo os alunos serão orientados a exercitar a produção textual e acompanhados na realização dos procedimentos e das etapas necessárias à elaboração de projetos de pesquisa, de forma a oportunizar a estes a posterior realização de um Trabalho de Conclusão de Curso (TCC). No decorrer da disciplina serão apresentados aos alunos os princípios básicos da pesquisa científica, as normas que orientam a condução dos trabalhos de investigação científica, em sua versão mais atual (Associação Brasileira de Normas Técnicas - ABNT), bem como sua aplicabilidade prática na sociedade contemporânea."
+    },
+    {
+      "codigo": "042",
+      "nome": "Cabeamento Estruturado",
+      "slug": "cabeamento-estruturado",
+      "carga_horaria": 67,
+      "pre_requisito": 31,
+      "ementa": "Meios de transmissão. Infraestrutura e tecnologias de redes. Infraestrutura para cabeamento estruturado. Projeto, padronização e certificação de cabeamento estruturado."
+    },
+    {
+      "codigo": "041",
+      "nome": "Interconexão de Redes",
+      "slug": "interconexao-de-redes",
+      "carga_horaria": 67,
+      "pre_requisito": 31,
+      "ementa": "Introdução ao Roteamento Interno (Intra AS); Roteamento Estático; Sumarização de Rotas; RIPv1; RIPv2; OSPF; EIGRP; Roteamento IPv6; Redistribuição de Rotas; DHCP; NAT e PAT."
+    },
+    {
+      "codigo": "043",
+      "nome": "Teoria da Informação e Codificação",
+      "slug": "teoria-da-informacao-e-codificacao",
+      "carga_horaria": 67,
+      "pre_requisito": 32,
+      "ementa": "Medidas da Informação. Entropia Relativa e Informação Mútua. Fontes Discretas sem Memória (DMS). Problema sClássico de Compactação. Códigos de compressão sem perda. Códigos para Transmissão Confiável de Dados. Código de Bloco Lineares; Códigos Cíclicos; Códigos Convolucionais."
+    },
+    {
+      "codigo": "044",
+      "nome": "Sistemas de Comunicações",
+      "slug": "sistemas-de-comunicacoes",
+      "carga_horaria": 67,
+      "pre_requisito": 32,
+      "ementa": "Elementos de Sistemas de Comunicações. Comunicações analógicas. Transmissão digital em banda base. Transmissão digital em banda passante. Modelagem de Erros de Transmissão. Tratamento de Erros de Transmissão. Implementação de um Sistema de Comunicações."
+    },
+    {
+      "codigo": "045",
+      "nome": "Processamento Digital de Sinais",
+      "slug": "processamento-digital-de-sinais",
+      "carga_horaria": 67,
+      "pre_requisito": 33,
+      "ementa": "Transformada Discreta de Fourier (DFT). Transformada Rápida de Fourier (FFT). Algoritmos e implementação da FFT. Projeto e implementação de filtros digitais FIR e IIR. Processamento digital de voz e imagens."
+    },
+    {
+      "codigo": "046",
+      "nome": "Administração de Serviços",
+      "slug": "administracao-de-servicos",
+      "carga_horaria": 67,
+      "pre_requisito": 21,
+      "ementa": "Revisão de configurações básicas de rede e solução de problemas de rede (troubleshooting). Configuração de roteamento local (rotas estáticas). Administração de clientes de rede (cliente DHCP, LDAP, autenticação e controle de acesso por PAM). Compartilhamento de arquivos (NFS e Samba). Servidor DHCP. Servidor de nomes de domínio (DNS). Servidor Web. Servidor Proxy. Servidor OpenLDAP. Serviços de e-mail (utilização e administração). Servidor de arquivos FTP. Acesso remoto com SSH. Configuração de VPN."
+    },
+    {
+      "codigo": "047",
+      "nome": "Educação Ambiental e Sustentabilidade",
+      "slug": "educacao-ambiental-e-sustentabilidade",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "Relações sociedade-natureza. Ética e meio ambiente. Qualidade de vida. A questão energética. Os serviços ambientais dos ecossistemas. Ameaças à biodiversidade. Riscos ambientais e mudanças climáticas. Direitos humanos e meio ambiente. A revolução verde e genética. O consumo consciente. Tecnologias sustentáveis. Produção eco-sustentável. Conferencias mundiais sobre meio ambiente."
+    },
+    {
+      "codigo": "051",
+      "nome": "Redes de Longa Distância",
+      "slug": "redes-de-longa-distancia",
+      "carga_horaria": 67,
+      "pre_requisito": 41,
+      "ementa": "Introdução a Redes WAN; HDLC; PPP; PPoE; Autenticação PAP e CHAP; xDSL; Listas de Controle de Acesso - ACL (v4 e v6); Filtragem de Rotas; Roteamento Baseado em Política (PBR); Túneis; Border Gateway Protocol (BGP); Metro Ethernet."
+    },
+    {
+      "codigo": "052",
+      "nome": "Segurança de Redes de Computadores",
+      "slug": "seguranca-de-redes-de-computadores",
+      "carga_horaria": 67,
+      "pre_requisito": 41,
+      "ementa": "Conceitos básicos sobre segurança da informação, políticas de segurança, vulnerabilidades, ameaças e ataques. Aspectos sociais da segurança de redes de computadores. Autenticação, criptografia, mecanismos de integridade de dados e assinatura digital. Configuração de segurança em rede local, controle de acesso e VPNs."
+    },
+    {
+      "codigo": "053",
+      "nome": "Comunicações Sem Fio",
+      "slug": "comunicacoes-sem-fio",
+      "carga_horaria": 67,
+      "pre_requisito": 44,
+      "ementa": "Sistemas de Comunicações Sem Fio. Modelos de Propagação Sem Fio. Antenas. Cálculos de Enlaces de Rádio. Canais Sem Fio. Desvanecimento. Multipercurso. Equalização. Diversidade. Multiplexação."
+    },
+    {
+      "codigo": "054",
+      "nome": "Comunicações Ópticas",
+      "slug": "comunicacoes-opticas",
+      "carga_horaria": 67,
+      "pre_requisito": 44,
+      "ementa": "Arquiteturas básicas de sistemas ópticos. Fibra óptica. Cabos ópticos. Fontes e receptores. Amplificadores. Conexões. Testes de cabos e enlaces. Conectorização de cabos. Projeto de redes ópticos."
+    },
+    {
+      "codigo": "055",
+      "nome": "Projeto em Telemática",
+      "slug": "projeto-em-telematica",
+      "carga_horaria": 67,
+      "pre_requisito": 37,
+      "ementa": "Elaboração de proposta de projeto envolvendo temas relacionados ao perfil de formação do Curso de Tecnologia em Telemática. Desenvolvimento do projeto proposto. Redação de relatório final do projeto."
+    },
+    {
+      "codigo": "056",
+      "nome": "Formação do Empreendedor",
+      "slug": "formacao-do-empreendedor",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "Empreendedorismo: Conceitos, evolução e características; Tipos de Empreendedores; Oportunidade de negócios; Comportamento e Habilidades do Empreendedor; O Empreendimento: principais concepções, mercados e estruturas; O plano de negócios."
+    },
+    {
+      "codigo": "057",
+      "nome": "Optativa I",
+      "slug": "optativa-i",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": ""
+    },
+    {
+      "codigo": "061",
+      "nome": "Projeto de Redes de Computadores",
+      "slug": "projetos-de-redes-de-computadores",
+      "carga_horaria": 67,
+      "pre_requisito": 42,
+      "ementa": "Abrangência e escopo de projetos de rede. Tipos de projetos de redes. Ciclo de vida de um projeto de rede. Análise de viabilidade de um projeto de rede. Metodologia top-down para projeto de rede. Identificação dos requisitos do cliente. Projeto lógico da rede. Projeto físico da rede. Testes, otimização e documentação do projeto de rede."
+    },
+    {
+      "codigo": "062",
+      "nome": "Sistemas Telefônicos",
+      "slug": "sistemas-telefonicos",
+      "carga_horaria": 67,
+      "pre_requisito": 53,
+      "ementa": "Mecanismos de propagação do som e voz. Abordagem dos Sistemas Telefônicos. Aprofundando-se na Telefonia Digital; Evoluindo para Telefonia Móvel e Voip. Redes de Transporte e Redes Telefônicas."
+    },
+    {
+      "codigo": "063",
+      "nome": "Educação em Direitos Humanos",
+      "slug": "educacao-em-direitos-humanos",
+      "carga_horaria": 33,
+      "pre_requisito": "0--",
+      "ementa": "Conceito de Educação em Direitos Humanos. Educação em Direitos Humanos no Brasil. Evolução dos direitos humanos e suas implicações para o campo educacional. Declaração Universal dos Direitos Humanos. Diretrizes Nacionais para a Educação em direitos humanos; Plano Nacional de Educação em Direitos Humanos; Temas transversais, projetos interdisciplinares e educação em direitos humanos."
+    },
+    {
+      "codigo": "064",
+      "nome": "Relações Humanas no Trabalho",
+      "slug": "relacoes-humanas-no-trabalho",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "As relações humanas e sua dinâmica. Os padrões de relação. Processos obstrutivos das relações humanas: o conflito. Relações de trabalho. Processos grupais básicos: percepção e comunicação. Liderança e relação entre líder e liderado/a. Ética nas relações humanas em ambiente de trabalho."
+    },
+    {
+      "codigo": "065",
+      "nome": "Ética",
+      "slug": "etica",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": "Profissional de computação. Oito princípios de conduta ética e profissional do engenheiro de software. Propriedade intelectual e pirataria. Privacidade. Responsabilidade social. O que é ética; Código de ética da ACM e IEEE. Direitos autorais e estudos de casos sobre ética na computação. Ética na internet: liberdade de informação, privacidade e censura."
+    },
+    {
+      "codigo": "066",
+      "nome": "Trabalho de Conclusão de Curso",
+      "slug": "trabalho-de-conclusao-de-curso",
+      "carga_horaria": "--",
+      "pre_requisito": 37,
+      "ementa": ""
+    },
+    {
+      "codigo": "067",
+      "nome": "Optativa II",
+      "slug": "optativa-ii",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": ""
+    },
+    {
+      "codigo": "001",
+      "nome": "Estagio Supervisionado",
+      "slug": "estagio-supervisionado",
+      "carga_horaria": 400,
+      "pre_requisito": 37,
+      "ementa": ""
+    },
+    {
+      "codigo": "002",
+      "nome": "Análise e projetos de sistemas",
+      "slug": "analise-e-projeto-de-sistemas",
+      "carga_horaria": 67,
+      "pre_requisito": 24,
+      "ementa": ""
+    },
+    {
+      "codigo": "003",
+      "nome": "Banco de Dados",
+      "slug": "banco-de-dados",
+      "carga_horaria": 67,
+      "pre_requisito": 13,
+      "ementa": ""
+    },
+    {
+      "codigo": "004",
+      "nome": "Computação em Numvem",
+      "slug": "computacao-em-nuvem",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": ""
+    },
+    {
+      "codigo": "005",
+      "nome": "Governança de T.I.",
+      "slug": "governanca-de-ti",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": ""
+    },
+    {
+      "codigo": "006",
+      "nome": "Microcontroladores e Microprocessadores",
+      "slug": "microcontroladores-e-microprocessadores",
+      "carga_horaria": 67,
+      "pre_requisito": 25,
+      "ementa": ""
+    },
+    {
+      "codigo": "007",
+      "nome": "Topicos Especiais em Telemática I",
+      "slug": "topicos-especiais-em-telematica-i",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": ""
+    },
+    {
+      "codigo": "008",
+      "nome": "Topicos Especiais em Telemática II",
+      "slug": "topicos-especiais-em-telematica-ii",
+      "carga_horaria": 67,
+      "pre_requisito": 0,
+      "ementa": ""
+    },
+    {
+      "codigo": "009",
+      "nome": "Libras",
+      "slug": "libras",
+      "carga_horaria": 33,
+      "pre_requisito": 0,
+      "ementa": ""
+    }
+  ]
+}

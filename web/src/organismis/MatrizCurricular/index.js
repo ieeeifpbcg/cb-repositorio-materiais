@@ -13,7 +13,7 @@ export default function MatrizCurricular({ matriz }) {
     // Cria uma matriz de arrays vazios para separar as diciplinas por semestre
 
     const semestres = matriz.reduce((array, disc) => {
-      const index = Number.parseInt(disc.id.charAt(0), 10) - 1;
+      const index = Number.parseInt(disc.codigo.charAt(1), 10) - 1;
 
       if (index < 0) return array;
 
@@ -32,12 +32,6 @@ export default function MatrizCurricular({ matriz }) {
         index + 1,
       ]);
 
-    // // Iterar sobre a matriz colocando cada disciplina em seu respectivo array
-    // matriz.forEach(disciplina => {
-    //   const index = Number.parseInt(disciplina.id.charAt(0), 10) - 1;
-    //   if (newMatriz[index]) newMatriz[index].push([]);
-    // });
-
     setSemestresArray(newMatriz);
   }, [matriz]);
 
@@ -45,9 +39,17 @@ export default function MatrizCurricular({ matriz }) {
     <Container>
       {semestresArray.map(([dist1, dist2, index1, index2]) => (
         <BoxSemestres>
-          <ListaSemestre key={dist1.id} disciplinas={dist1} number={index1} />
+          <ListaSemestre
+            key={dist1.codigo}
+            disciplinas={dist1}
+            number={index1}
+          />
 
-          <ListaSemestre key={dist2.id} disciplinas={dist2} number={index2} />
+          <ListaSemestre
+            key={dist2.codigo}
+            disciplinas={dist2}
+            number={index2}
+          />
         </BoxSemestres>
       ))}
     </Container>
