@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { emojify } from 'react-emojione';
 import { FiX } from 'react-icons/fi';
 import Modal from 'react-modal';
 
 import { MDXProvider } from '@mdx-js/react';
+// import MDX from '@mdx-js/runtime';
 import PropTypes from 'prop-types';
 
 import Markdown from './readme.md';
@@ -21,8 +22,17 @@ import {
 } from './styles';
 import { theme } from '~/styles/theme';
 
-// disciplina
-export default function ModalDisciplina({ isOpen, onClose }) {
+export default function ModalDisciplina({ isOpen, onClose, disciplina }) {
+  const [, setMdRaw] = useState('');
+
+  fetch(
+    `https://raw.githubusercontent.com/ieeeifpbcg/cb-repositorio-materiais/master/cursos/telematica/periodo-${disciplina.codigo.charAt(
+      0
+    )}/${disciplina.slug}/readme.md`
+  ).then(res => {
+    setMdRaw(res.body);
+  });
+
   return (
     <Modal style={ModalStyle} isOpen={isOpen} onRequestClose={onClose}>
       <CloseButton onClick={onClose}>
