@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { emojify } from 'react-emojione';
 import { FiX } from 'react-icons/fi';
 import Modal from 'react-modal';
 
-import { MDXProvider } from '@mdx-js/react';
-// import MDX from '@mdx-js/runtime';
+import MDX from '@mdx-js/runtime';
+import axios from 'axios';
 import PropTypes from 'prop-types';
-
-import Markdown from './readme.md';
 
 import {
   CloseButton,
@@ -23,15 +21,23 @@ import {
 import { theme } from '~/styles/theme';
 
 export default function ModalDisciplina({ isOpen, onClose, disciplina }) {
-  const [, setMdRaw] = useState('');
+  const api = axios.create();
+  const [mdRaw, setMdRaw] = useState('');
 
-  fetch(
-    `https://raw.githubusercontent.com/ieeeifpbcg/cb-repositorio-materiais/master/cursos/telematica/periodo-${disciplina.codigo.charAt(
-      0
-    )}/${disciplina.slug}/readme.md`
-  ).then(res => {
-    setMdRaw(res.body);
-  });
+  useEffect(() => {
+    api
+      .get(
+        `https://raw.githubusercontent.com/ieeeifpbcg/cb-repositorio-materiais/master/cursos/telematica/periodo-${disciplina.codigo.charAt(
+          1
+        )}/${disciplina.slug}/readme.md`
+      )
+      .then(res => {
+        setMdRaw(res.data);
+      })
+      .catch(() => {
+        setMdRaw('# Erro de conexão');
+      });
+  }, [api, disciplina.codigo, disciplina.slug, mdRaw]);
 
   return (
     <Modal style={ModalStyle} isOpen={isOpen} onRequestClose={onClose}>
@@ -39,7 +45,7 @@ export default function ModalDisciplina({ isOpen, onClose, disciplina }) {
         <FiX size={16} color={theme.primary.text} />
       </CloseButton>
       <Wrapper>
-        <MDXProvider
+        <MDX
           components={{
             /* eslint-disable react/prop-types */
 
@@ -70,8 +76,8 @@ export default function ModalDisciplina({ isOpen, onClose, disciplina }) {
             },
           }}
         >
-          <Markdown />
-        </MDXProvider>
+          {mdRaw}
+        </MDX>
       </Wrapper>
     </Modal>
   );
