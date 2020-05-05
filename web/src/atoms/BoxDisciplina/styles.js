@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.li`
-  width: 174px;
-  height: 89px;
+  width: 199px;
+  height: 104px;
   display: flex;
 
   align-items: center;
@@ -22,40 +22,12 @@ export const Container = styled.button`
   color: #fff;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  width: 150px;
-  height: 65px;
+  width: 165px;
+  height: 80px;
   font-style: normal;
   font-weight: normal;
 
   transition: all 0.2s;
-
-  p.nomeDisc {
-    line-height: 1.8rem;
-    max-width: 120px;
-    align-self: center;
-    text-align: center;
-  }
-
-  p.idDisc {
-    opacity: 0;
-    position: absolute;
-    top: 2px;
-    left: 4px;
-  }
-
-  p.cargaHoraria {
-    opacity: 0;
-    position: absolute;
-    bottom: 2px;
-    right: 4px;
-  }
-
-  p.preReq {
-    opacity: 0;
-    position: absolute;
-    top: 2px;
-    right: 4px;
-  }
 
   &:hover {
     transform: scale(1.2, 1.2);
@@ -64,10 +36,6 @@ export const Container = styled.button`
 
     span {
       opacity: 1;
-    }
-
-    h1.nomeDisc {
-      font-weight: bold;
     }
   }
 
@@ -80,7 +48,7 @@ export const Container = styled.button`
 export const Nome = styled.h1`
   line-height: 1.8rem;
   font-size: 1.4rem;
-  max-width: 120px;
+  max-width: 135px;
   align-self: center;
   text-align: center;
 `;

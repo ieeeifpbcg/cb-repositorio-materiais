@@ -13,7 +13,7 @@ export const ButtonSemestre = styled.button`
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 
-  width: 150px;
+  width: 170px;
   height: 50px;
 
   color: ${theme.primary.active};

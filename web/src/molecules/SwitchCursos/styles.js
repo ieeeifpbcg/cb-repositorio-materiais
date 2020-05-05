@@ -11,9 +11,10 @@ export const Container = styled.div`
     border-radius: 4px;
     font-weight: bold;
     font-size: 2.4rem;
+    min-width: 220px;
   }
 
-  @media (max-width: 441px) {
+  @media (max-width: 500px) {
     & > button + button {
       margin-top: 12px;
     }

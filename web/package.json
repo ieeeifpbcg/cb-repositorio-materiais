@@ -5,9 +5,9 @@
   "version": "0.1.0",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "p-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "pepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
   "lint-staged": {
@@ -17,10 +17,15 @@
     ]
   },
   "dependencies": {
+    "@mdx-js/mdx": "^1.5.8",
+    "@mdx-js/react": "^1.5.8",
+    "@mdx-js/runtime": "^1.5.8",
+    "axios": "^0.19.2",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-mdx": "^1.1.4",
     "gatsby-plugin-netlify": "^2.1.30",
     "gatsby-plugin-netlify-cache": "^1.2.0",
     "gatsby-plugin-offline": "^3.0.27",
@@ -30,14 +35,20 @@
     "gatsby-plugin-sharp": "^2.3.5",
     "gatsby-plugin-sitemap": "^2.2.24",
     "gatsby-plugin-styled-components": "^3.1.16",
-    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-remark": "^2.7.1",
     "gatsby-transformer-sharp": "^2.3.7",
+    "mdx": "^0.3.1",
     "prop-types": "^15.7.2",
+    "raw.macro": "^0.3.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-emojione": "^5.0.1",
     "react-helmet-async": "^1.0.4",
     "react-icons": "^3.9.0",
+    "react-modal": "^3.11.2",
     "react-perfect-scrollbar": "^1.5.8",
+    "reactjs-popup": "^1.5.0",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {

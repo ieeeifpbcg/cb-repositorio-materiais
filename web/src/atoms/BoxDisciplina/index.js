@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 
 import PropTypes from 'prop-types';
 
-import { parseName } from '~/util/DisciplinaParser';
+import ModalDisciplina from '~/molecules/ModalDisciplina';
 
 import {
   Wrapper,
@@ -14,13 +14,33 @@ import {
 } from './styles';
 
 export default function BoxDisciplina({ disciplina, bg }) {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const onClose = useCallback(() => {
+    setModalOpen(false);
+  }, []);
+
+  const handleButton = useCallback(() => {
+    setModalOpen(true);
+  }, []);
+
   return (
     <Wrapper>
-      <Container type="button" style={{ background: bg }}>
-        <Nome>{parseName(disciplina.nome)}</Nome>
-        <CargaHoraria>{disciplina.ch}</CargaHoraria>
-        <IdDisciplina>{disciplina.id}</IdDisciplina>
-        <PreReq>{disciplina.pr}</PreReq>
+      <ModalDisciplina
+        disciplina={disciplina}
+        isOpen={modalOpen}
+        onClose={onClose}
+      />
+
+      <Container
+        type="button"
+        style={{ background: bg }}
+        onClick={handleButton}
+      >
+        <Nome>{disciplina.nome}</Nome>
+        <CargaHoraria>{disciplina.carga_horaria}</CargaHoraria>
+        <IdDisciplina>{disciplina.codigo}</IdDisciplina>
+        <PreReq>{disciplina.pre_requisito}</PreReq>
       </Container>
     </Wrapper>
   );
@@ -28,10 +48,12 @@ export default function BoxDisciplina({ disciplina, bg }) {
 
 BoxDisciplina.propTypes = {
   disciplina: PropTypes.shape({
-    id: PropTypes.string,
+    codigo: PropTypes.string,
     nome: PropTypes.string.isRequired,
-    ch: PropTypes.string.isRequired,
-    pr: PropTypes.string.isRequired,
+    carga_horaria: PropTypes.string.isRequired,
+    pre_requisito: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
+    ementa: PropTypes.string.isRequired,
   }).isRequired,
 
   bg: PropTypes.string.isRequired,

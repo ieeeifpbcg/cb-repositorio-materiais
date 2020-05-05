@@ -6,13 +6,12 @@ import MatrizCurricular from '~/organismis/MatrizCurricular';
 
 import Layout from '~/templates/Layout';
 
-import matriz from '~/assets/matriz_acentuada.json';
+import { telematica } from '~/assets/matrizTelematica.json';
 
 const IndexPage = () => (
   <Layout title="Home">
     <SwitchCursos />
-    <MatrizCurricular matriz={matriz} />
+    <MatrizCurricular matriz={telematica} />
   </Layout>
 );
-
 export default IndexPage;

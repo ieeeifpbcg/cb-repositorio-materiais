@@ -26,7 +26,11 @@ export default function ListaSemestre({ disciplinas, number }) {
 
       {disciplinas.map(element => {
         return (
-          <BoxDisciplina id={element.id} disciplina={element} bg="#95C085" />
+          <BoxDisciplina
+            id={element.codigo}
+            disciplina={element}
+            bg="#95C085"
+          />
         );
       })}
     </Container>
@@ -36,10 +40,10 @@ export default function ListaSemestre({ disciplinas, number }) {
 ListaSemestre.propTypes = {
   disciplinas: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string,
+      codigo: PropTypes.string.isRequired,
       nome: PropTypes.string.isRequired,
-      ch: PropTypes.string.isRequired,
-      pr: PropTypes.string.isRequired,
+      carga_horaria: PropTypes.string.isRequired,
+      pre_requisito: PropTypes.string.isRequired,
     })
   ).isRequired,
   number: PropTypes.number.isRequired,
