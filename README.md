@@ -9,7 +9,7 @@
 
 <p align="center">
   <a alt="Maintenance">
-    <img src="https://img.shields.io/maintenance/yes/2020 />
+    <img src="https://img.shields.io/maintenance/yes/2020" />
   </a>
   <a  alt="License: MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
